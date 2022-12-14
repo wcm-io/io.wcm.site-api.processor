@@ -1,6 +1,6 @@
-## About WCM Site API
+## About Site API Processor
 
-API for Headless AEM projects based on AEM Sites.
+Processor API for Headless AEM projects based on AEM Sites.
 
 [![Maven Central](https://img.shields.io/maven-central/v/io.wcm/io.wcm.site-api.processor)](https://repo1.maven.org/maven2/io/wcm/io.wcm.site-api.processor/)
 
@@ -19,9 +19,9 @@ TBD
 
 ### AEM Version Support Matrix
 
-|WCM Clientlibs UI Extensions version |AEM version supported
-|-------------------------------------|----------------------
-|1.0.0 or higher                      |AEM 6.5.7+, AEMaaCS
+|Site API Processor version |AEM version supported
+|---------------------------|----------------------
+|1.0.0 or higher            |AEM 6.5.7+, AEMaaCS
 
 
 ### Dependencies

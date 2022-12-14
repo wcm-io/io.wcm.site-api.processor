@@ -27,8 +27,8 @@
   <body>
     <breadcrumbs>
       <item name="wcm.io" href="https://wcm.io" />
-      <item name="WCM" href="https://wcm.io/wcm/" />
-      <item name="WCM Site API" href="https://wcm.io/site-api/processor/" />
+      <item name="Site API" href="https://wcm.io/site-api/" />
+      <item name="Site API Processor" href="https://wcm.io/site-api/processor/" />
     </breadcrumbs>
   </body>
 
