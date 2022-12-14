@@ -18,7 +18,7 @@ You can enable the built-in processors by providing an OSGi configuration:
 For the `config` processor you can configure which Context-Aware configuration names should be exported:
 
 ```
-  io.wcm.siteapi.processor.impl.caconfig.ContextAwareConfigurationExport-XXX
+  io.wcm.siteapi.processor.impl.caconfig.ContextAwareConfigurationExportImpl-XXX
     names=["x.y.z.MyConfig1", "x.y.z.MyConfig2"]
 ```
 

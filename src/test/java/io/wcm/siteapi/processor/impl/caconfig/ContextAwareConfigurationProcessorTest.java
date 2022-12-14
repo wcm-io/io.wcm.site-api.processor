@@ -45,6 +45,7 @@ import org.mockito.Mock.Strictness;
 import org.mockito.junit.jupiter.MockitoExtension;
 
 import io.wcm.siteapi.processor.caconfig.ContextAwareConfigurationMapper;
+import io.wcm.siteapi.processor.caconfig.impl.ContextAwareConfigurationExportImpl;
 import io.wcm.siteapi.processor.textcontext.AppAemContext;
 import io.wcm.siteapi.processor.url.UrlBuilder;
 import io.wcm.testing.mock.aem.junit5.AemContext;
@@ -94,7 +95,7 @@ class ContextAwareConfigurationProcessorTest {
 
   @Test
   void testNonExistingConfig() {
-    context.registerInjectActivateService(ContextAwareConfigurationExport.class,
+    context.registerInjectActivateService(ContextAwareConfigurationExportImpl.class,
         "names", new String[] {
             "non-existing-config-1",
             "non-existing-config-2",
@@ -107,7 +108,7 @@ class ContextAwareConfigurationProcessorTest {
 
   @Test
   void testAllConfig() {
-    context.registerInjectActivateService(ContextAwareConfigurationExport.class,
+    context.registerInjectActivateService(ContextAwareConfigurationExportImpl.class,
         "names", new String[] {
             CONFIG_1_NAME,
             CONFIG_COLLECTION_2_NAME,
@@ -117,7 +118,7 @@ class ContextAwareConfigurationProcessorTest {
 
   @Test
   void testAllConfig_NoShortening() {
-    context.registerInjectActivateService(ContextAwareConfigurationExport.class,
+    context.registerInjectActivateService(ContextAwareConfigurationExportImpl.class,
         "names", new String[] {
             CONFIG_1_NAME,
             CONFIG_COLLECTION_2_NAME,
@@ -134,7 +135,7 @@ class ContextAwareConfigurationProcessorTest {
 
     when(urlBuilder.build(any(), eq(PROCESSOR_CONFIG), eq("Config3"), any())).thenReturn("/dummy.json");
 
-    context.registerInjectActivateService(ContextAwareConfigurationExport.class,
+    context.registerInjectActivateService(ContextAwareConfigurationExportImpl.class,
         "names", new String[] {
             CONFIG_1_NAME,
             CONFIG_COLLECTION_2_NAME,
@@ -146,7 +147,7 @@ class ContextAwareConfigurationProcessorTest {
 
   @Test
   void testSingleConfig() {
-    context.registerInjectActivateService(ContextAwareConfigurationExport.class,
+    context.registerInjectActivateService(ContextAwareConfigurationExportImpl.class,
         "names", new String[] {
             CONFIG_1_NAME,
             CONFIG_COLLECTION_2_NAME,
@@ -156,7 +157,7 @@ class ContextAwareConfigurationProcessorTest {
 
   @Test
   void testSingleConfigCollection() {
-    context.registerInjectActivateService(ContextAwareConfigurationExport.class,
+    context.registerInjectActivateService(ContextAwareConfigurationExportImpl.class,
         "names", new String[] {
             CONFIG_1_NAME,
             CONFIG_COLLECTION_2_NAME,
