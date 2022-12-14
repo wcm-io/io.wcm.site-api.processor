@@ -28,6 +28,7 @@ import java.io.IOException;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
+import javax.servlet.http.HttpServletResponse;
 
 import org.apache.sling.api.SlingHttpServletResponse;
 import org.jetbrains.annotations.NotNull;
@@ -71,6 +72,9 @@ public class ContentProcessor implements SlingHttpServletProcessor {
     RequestDispatcher requestDispatcher = context.getRequest().getRequestDispatcher(modelJsonUri);
     if (requestDispatcher != null) {
       requestDispatcher.forward(context.getRequest(), response);
+    }
+    else {
+      response.sendError(HttpServletResponse.SC_NOT_FOUND);
     }
   }
 
