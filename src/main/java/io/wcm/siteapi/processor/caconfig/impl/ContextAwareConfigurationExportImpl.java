@@ -17,26 +17,29 @@
  * limitations under the License.
  * #L%
  */
-package io.wcm.siteapi.processor.impl.caconfig;
+package io.wcm.siteapi.processor.caconfig.impl;
 
 import java.util.Arrays;
 import java.util.Collection;
 import java.util.Collections;
 
+import org.jetbrains.annotations.NotNull;
 import org.osgi.service.component.annotations.Activate;
 import org.osgi.service.component.annotations.Component;
 import org.osgi.service.metatype.annotations.AttributeDefinition;
 import org.osgi.service.metatype.annotations.Designate;
 import org.osgi.service.metatype.annotations.ObjectClassDefinition;
 
+import io.wcm.siteapi.processor.caconfig.ContextAwareConfigurationExport;
+
 /**
  * Configures a list of context-aware configuration names/classes to be exposed via Site API.
  */
-@Designate(ocd = ContextAwareConfigurationExport.Config.class, factory = true)
+@Designate(ocd = ContextAwareConfigurationExportImpl.Config.class, factory = true)
 @Component(service = ContextAwareConfigurationExport.class, property = {
     "webconsole.configurationFactory.nameHint={names}"
 })
-public final class ContextAwareConfigurationExport {
+public final class ContextAwareConfigurationExportImpl implements ContextAwareConfigurationExport {
 
   @ObjectClassDefinition(
       name = "wcm.io Site API Context-Aware Configuration Export",
@@ -60,7 +63,8 @@ public final class ContextAwareConfigurationExport {
   /**
    * @return List context-aware configuration names/classes.
    */
-  public Collection<String> getNames() {
+  @Override
+  public @NotNull Collection<String> getNames() {
     return Collections.unmodifiableCollection(names);
   }
 

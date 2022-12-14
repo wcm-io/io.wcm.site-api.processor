@@ -24,10 +24,12 @@ import static io.wcm.siteapi.processor.ProcessorConstants.PROPERTY_SUFFIX;
 import static io.wcm.siteapi.processor.ProcessorConstants.PROPERTY_SUFFIX_PATTERN;
 import static io.wcm.siteapi.processor.caconfig.ContextAwareConfigurationProperties.PROPERTY_CONFIG_EMBEDDED;
 
-import java.util.Collection;
+import java.util.Collections;
 import java.util.Map;
 import java.util.SortedMap;
+import java.util.SortedSet;
 import java.util.TreeMap;
+import java.util.concurrent.ConcurrentSkipListSet;
 import java.util.stream.Stream;
 
 import org.apache.commons.lang3.StringUtils;
@@ -35,9 +37,12 @@ import org.apache.sling.caconfig.management.ConfigurationManager;
 import org.apache.sling.caconfig.spi.metadata.ConfigurationMetadata;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
+import org.osgi.framework.ServiceReference;
 import org.osgi.service.component.annotations.Activate;
 import org.osgi.service.component.annotations.Component;
 import org.osgi.service.component.annotations.ConfigurationPolicy;
+import org.osgi.service.component.annotations.Deactivate;
+import org.osgi.service.component.annotations.FieldOption;
 import org.osgi.service.component.annotations.Reference;
 import org.osgi.service.component.annotations.ReferenceCardinality;
 import org.osgi.service.component.annotations.ReferencePolicy;
@@ -50,9 +55,12 @@ import org.osgi.service.metatype.annotations.ObjectClassDefinition;
 import io.wcm.siteapi.processor.JsonObjectProcessor;
 import io.wcm.siteapi.processor.Processor;
 import io.wcm.siteapi.processor.ProcessorRequestContext;
+import io.wcm.siteapi.processor.caconfig.ContextAwareConfigurationExport;
 import io.wcm.siteapi.processor.caconfig.ContextAwareConfigurationMapper;
 import io.wcm.siteapi.processor.caconfig.impl.ConfigurationMetadataUtil;
 import io.wcm.siteapi.processor.url.UrlBuilder;
+import io.wcm.sling.commons.caservice.ContextAwareServiceCollectionResolver;
+import io.wcm.sling.commons.caservice.ContextAwareServiceResolver;
 
 /**
  * Generate context-aware configuration.
@@ -82,9 +90,9 @@ public class ContextAwareConfigurationProcessor implements JsonObjectProcessor<O
 
   }
 
-  @Reference(cardinality = ReferenceCardinality.MULTIPLE, policy = ReferencePolicy.STATIC,
-      policyOption = ReferencePolicyOption.GREEDY)
-  private Collection<ContextAwareConfigurationExport> caconfigExports;
+  @Reference(cardinality = ReferenceCardinality.MULTIPLE, fieldOption = FieldOption.UPDATE,
+      policy = ReferencePolicy.DYNAMIC, policyOption = ReferencePolicyOption.GREEDY)
+  private SortedSet<ServiceReference<ContextAwareConfigurationExport>> caconfigExports = new ConcurrentSkipListSet<>(Collections.reverseOrder());
 
   @Reference
   private ConfigurationManager configManager;
@@ -92,6 +100,9 @@ public class ContextAwareConfigurationProcessor implements JsonObjectProcessor<O
   private ContextAwareConfigurationMapper contextAwareConfigurationMapper;
   @Reference
   private UrlBuilder urlBuilder;
+  @Reference
+  private ContextAwareServiceResolver serviceResolver;
+  private ContextAwareServiceCollectionResolver<ContextAwareConfigurationExport, Void> caconfigExportCollectionResolver;
 
   static final String NOT_EMBEDDED_LINK_SUFFIX = ":link";
 
@@ -100,6 +111,12 @@ public class ContextAwareConfigurationProcessor implements JsonObjectProcessor<O
   @Activate
   private void activate(Config config) {
     this.shortenConfigNames = config.shortenConfigNames();
+    this.caconfigExportCollectionResolver = serviceResolver.getCollectionResolver(this.caconfigExports);
+  }
+
+  @Deactivate
+  private void deactivate() {
+    this.caconfigExportCollectionResolver.close();
   }
 
   @Override
@@ -120,7 +137,7 @@ public class ContextAwareConfigurationProcessor implements JsonObjectProcessor<O
    */
   private @NotNull SortedMap<String, Object> generateAllConfigs(@NotNull ProcessorRequestContext context) {
     SortedMap<String, Object> result = new TreeMap<>();
-    getConfiguredConfigNames().forEach(configName -> {
+    getConfiguredConfigNames(context).forEach(configName -> {
       Object configObject = contextAwareConfigurationMapper.get(configName, context.getRequest());
       if (configObject != null) {
         String exportConfigName = getExportConfigName(configName);
@@ -143,7 +160,7 @@ public class ContextAwareConfigurationProcessor implements JsonObjectProcessor<O
    */
   private @Nullable Object generateSingleConfig(@NotNull ProcessorRequestContext context) {
     String suffixExtension = context.getSuffixExtension();
-    return getConfiguredConfigNames()
+    return getConfiguredConfigNames(context)
         .filter(configName -> StringUtils.equals(getExportConfigName(configName), suffixExtension))
         .map(configName -> contextAwareConfigurationMapper.get(configName, context.getRequest()))
         .findFirst().orElse(null);
@@ -152,8 +169,8 @@ public class ContextAwareConfigurationProcessor implements JsonObjectProcessor<O
   /**
    * @return Sorted stream with all caconfig names configured in any configuration.
    */
-  private Stream<String> getConfiguredConfigNames() {
-    return caconfigExports.stream()
+  private Stream<String> getConfiguredConfigNames(@NotNull ProcessorRequestContext context) {
+    return caconfigExportCollectionResolver.resolveAll(context.getRequest())
         .flatMap(item -> item.getNames().stream())
         .sorted();
   }
