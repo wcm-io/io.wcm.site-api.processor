@@ -2,7 +2,7 @@
 
 ### Configuring built-in processors
 
-You can enable each of the built-in processors by providing an OSGi configuration:
+You can enable the built-in processors by providing an OSGi configuration:
 
 ```
   io.wcm.siteapi.processor.impl.index.IndexProcessor
