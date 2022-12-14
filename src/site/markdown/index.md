@@ -14,8 +14,15 @@ Processor API for Headless AEM projects based on AEM Sites.
 
 ### Overview
 
-TBD
+The Site API Processor provides:
 
+* Implement you own processors to serve JSON API requests within the Site API
+* Built-in `index` processor that provides links to all registered processors
+* Built-in `content` processor that provides a facade to `.model.json` view within Site API
+* Built-in `config` Context-Aware Configuration processor
+* Maps any Context-Aware Configuration structure to JSON (allowing to customize the response based on context-aware configuration definition properties)
+* Based on [Site API General Concepts][siteapi-general-concepts]
+* Based on [Context-Aware Services][wcmio-sling-context-aware-services] for provider type service interfaces
 
 ### AEM Version Support Matrix
 
@@ -40,3 +47,5 @@ Sources: https://github.com/wcm-io/io.wcm.site-api.processor
 [usage]: usage.html
 [apidocs]: apidocs/
 [changelog]: changes-report.html
+[siteapi-general-concepts]: https://wcm.io/site-api/general-concepts.html
+[wcmio-sling-context-aware-services]: https://wcm.io/sling/commons/context-aware-services.html
