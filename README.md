@@ -7,7 +7,7 @@
 Processor API for Headless AEM projects based on AEM Sites.
 
 Documentation: https://wcm.io/site-api/processor/<br/>
-Issues: https://wcm-io.atlassian.net/browse/WWCM<br/>
+Issues: https://github.com/wcm-io/io.wcm.site-api.processor/issues<br/>
 Wiki: https://wcm-io.atlassian.net/wiki/<br/>
 Continuous Integration: https://github.com/wcm-io/io.wcm.site-api.processor/actions<br/>
 Commercial support: https://wcm.io/commercial-support.html
