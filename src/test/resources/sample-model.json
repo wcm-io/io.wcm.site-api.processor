@@ -1,0 +1,1766 @@
+{
+  ":items": {
+    "root": {
+      ":items": {
+        "container": {
+          ":items": {
+            "carousel": {
+              ":items": {
+                "item_1571954853062": {
+                  ":type": "wknd/components/teaser",
+                  "actions": [{
+                    ":type": "wcm-io/handler/link/synthetic/resource",
+                    "dataLayer": {
+                      "teaser-037b739c64-cta-037b739c64": {
+                        "@type": "wknd/components/page/item",
+                        "dc:title": "View Trips",
+                        "xdm:linkURL": "http://localhost:4502/content/wknd/language-masters/en/adventures.site.api/content.json"
+                      }
+                    },
+                    "id": "teaser-037b739c64-cta-037b739c64",
+                    "link": {
+                      "attributes": {
+                        "data-link-type": "internal",
+                        "data-valid": "true"
+                      },
+                      "url": "http://localhost:4502/content/wknd/language-masters/en/adventures.site.api/content.json",
+                      "valid": true
+                    },
+                    "title": "View Trips"
+                  }],
+                  "actionsEnabled": true,
+                  "appliedCssClassNames": "cmp-teaser--hero",
+                  "cq:panelTitle": "WKND Adventures",
+                  "dataLayer": {
+                    "teaser-037b739c64": {
+                      "@type": "wknd/components/teaser",
+                      "dc:description": "Join us on one of our next adventures.  Browse our list of curated experiences and sign up for one when you're ready to explore with us.",
+                      "dc:title": "WKND Adventures",
+                      "repo:modifyDate": "2019-10-27T23:01:12Z"
+                    }
+                  },
+                  "description": "Join us on one of our next adventures.  Browse our list of curated experiences and sign up for one when you're ready to explore with us.",
+                  "id": "teaser-037b739c64",
+                  "imageLinkHidden": false,
+                  "title": "WKND Adventures",
+                  "titleLinkHidden": false,
+                  "wcmio:mediaURL": "http://localhost:4502/content/dam/wknd-shared/en/adventures/riverside-camping-australia/adobestock-216674449.jpeg/_jcr_content/renditions/original./adobestock-216674449.jpeg",
+                  "wcmio:mediaValid": true
+                },
+                "item_1572035298405": {
+                  ":type": "wknd/components/teaser",
+                  "actions": [{
+                    ":type": "wcm-io/handler/link/synthetic/resource",
+                    "dataLayer": {
+                      "teaser-962e029bc7-cta-962e029bc7": {
+                        "@type": "wknd/components/page/item",
+                        "dc:title": "Full Article",
+                        "xdm:linkURL": "http://localhost:4502/content/wknd/language-masters/en/magazine/san-diego-surf.site.api/content.json"
+                      }
+                    },
+                    "id": "teaser-962e029bc7-cta-962e029bc7",
+                    "link": {
+                      "attributes": {
+                        "data-link-type": "internal",
+                        "data-valid": "true"
+                      },
+                      "url": "http://localhost:4502/content/wknd/language-masters/en/magazine/san-diego-surf.site.api/content.json",
+                      "valid": true
+                    },
+                    "title": "Full Article"
+                  }],
+                  "actionsEnabled": true,
+                  "appliedCssClassNames": "cmp-teaser--hero",
+                  "cq:panelTitle": "San Diego Surf Spots",
+                  "dataLayer": {
+                    "teaser-962e029bc7": {
+                      "@type": "wknd/components/teaser",
+                      "dc:description": "From the hippie beaches of Ocean Beach to the ritzy shores of La Jolla and everywhere in between. Discover the San Diego surf scene.",
+                      "dc:title": "San Diego Surf Spots",
+                      "repo:modifyDate": "2020-09-30T22:19:39Z"
+                    }
+                  },
+                  "description": "From the hippie beaches of Ocean Beach to the ritzy shores of La Jolla and everywhere in between. Discover the San Diego surf scene.",
+                  "id": "teaser-962e029bc7",
+                  "imageLinkHidden": false,
+                  "title": "San Diego Surf Spots",
+                  "titleLinkHidden": false,
+                  "wcmio:mediaURL": "http://localhost:4502/content/dam/wknd-shared/en/magazine/san-diego-surf-spots/beach-walking.jpg/_jcr_content/renditions/original./beach-walking.jpg",
+                  "wcmio:mediaValid": true
+                },
+                "teaser": {
+                  ":type": "wknd/components/teaser",
+                  "actions": [{
+                    ":type": "wcm-io/handler/link/synthetic/resource",
+                    "dataLayer": {
+                      "teaser-68126ee3e3-cta-68126ee3e3": {
+                        "@type": "wknd/components/page/item",
+                        "dc:title": "View Trip",
+                        "xdm:linkURL": "http://localhost:4502/content/wknd/language-masters/en/adventures/downhill-skiing-wyoming.site.api/content.json"
+                      }
+                    },
+                    "id": "teaser-68126ee3e3-cta-68126ee3e3",
+                    "link": {
+                      "attributes": {
+                        "data-link-type": "internal",
+                        "data-valid": "true"
+                      },
+                      "url": "http://localhost:4502/content/wknd/language-masters/en/adventures/downhill-skiing-wyoming.site.api/content.json",
+                      "valid": true
+                    },
+                    "title": "View Trip"
+                  }],
+                  "actionsEnabled": true,
+                  "appliedCssClassNames": "cmp-teaser--hero",
+                  "cq:panelTitle": "Downhill Skiing Wyoming",
+                  "dataLayer": {
+                    "teaser-68126ee3e3": {
+                      "@type": "wknd/components/teaser",
+                      "dc:description": "<p>A skiers paradise far from crowds and close to nature with terrain so vast it appears uncharted.</p>\r\n",
+                      "dc:title": "Downhill Skiing Wyoming",
+                      "repo:modifyDate": "2020-09-30T22:17:28Z"
+                    }
+                  },
+                  "description": "<p>A skiers paradise far from crowds and close to nature with terrain so vast it appears uncharted.</p>\r\n",
+                  "id": "teaser-68126ee3e3",
+                  "imageLinkHidden": false,
+                  "title": "Downhill Skiing Wyoming",
+                  "titleLinkHidden": false,
+                  "wcmio:mediaURL": "http://localhost:4502/content/dam/wknd-shared/en/adventures/downhill-skiing-wyoming/adobestock-185234795.jpeg/_jcr_content/renditions/original./adobestock-185234795.jpeg",
+                  "wcmio:mediaValid": true
+                }
+              },
+              ":itemsOrder": ["item_1571954853062", "item_1572035298405", "teaser"],
+              ":type": "wknd/components/carousel",
+              "accessibilityAutoItemTitles": false,
+              "activeItem": "item_1571954853062",
+              "appliedCssClassNames": "cmp-carousel--hero",
+              "autopauseDisabled": false,
+              "autoplay": false,
+              "controlsPrepended": false,
+              "dataLayer": {
+                "carousel-acb4feb637": {
+                  "@type": "wknd/components/carousel",
+                  "repo:modifyDate": "2019-10-26T00:30:19Z",
+                  "shownItems": ["carousel-acb4feb637-item-037b739c64"]
+                }
+              },
+              "delay": 5000,
+              "id": "carousel-acb4feb637"
+            },
+            "container": {
+              ":items": {
+                "button_copy": {
+                  ":type": "wknd/components/button",
+                  "accessibilityLabel": "read our articles",
+                  "appliedCssClassNames": "cmp-button--primary",
+                  "dataLayer": {
+                    "button-df266548e1": {
+                      "@type": "wknd/components/button",
+                      "dc:title": "All Articles",
+                      "repo:modifyDate": "2020-09-30T22:15:08Z"
+                    }
+                  },
+                  "id": "button-df266548e1",
+                  "text": "All Articles"
+                },
+                "image_list": {
+                  ":type": "wknd/components/image-list",
+                  "dataLayer": {
+                    "list-084fc720c8": {
+                      "@type": "wknd/components/image-list",
+                      "repo:modifyDate": "2019-10-26T00:59:48Z"
+                    }
+                  },
+                  "dateFormatString": "yyyy-MM-dd",
+                  "id": "list-084fc720c8",
+                  "items": [{
+                    ":type": "wknd/components/page",
+                    "dataLayer": {
+                      "list-084fc720c8-item-b583179409": {
+                        "@type": "wknd/components/page/item",
+                        "dc:title": "Ultimate Guide to LA Skateparks",
+                        "repo:modifyDate": "2023-09-04T15:01:17Z",
+                        "xdm:linkURL": "http://localhost:4502/content/wknd/language-masters/en/magazine/guide-la-skateparks.site.api/content.json"
+                      }
+                    },
+                    "description": "Breaking down the top skate destinations in all of Los Angeles. You don't want to miss this!",
+                    "id": "list-084fc720c8-item-b583179409",
+                    "lastModified": 1601512653318,
+                    "link": {
+                      "attributes": {
+                        "data-link-type": "internal",
+                        "data-valid": "true"
+                      },
+                      "url": "http://localhost:4502/content/wknd/language-masters/en/magazine/guide-la-skateparks.site.api/content.json",
+                      "valid": true
+                    },
+                    "path": "/content/wknd/language-masters/en/magazine/guide-la-skateparks",
+                    "title": "Ultimate Guide to LA Skateparks"
+                  }, {
+                    ":type": "wknd/components/page",
+                    "dataLayer": {
+                      "list-084fc720c8-item-70c9d14ac2": {
+                        "@type": "wknd/components/page/item",
+                        "dc:title": "Ski Touring",
+                        "repo:modifyDate": "2023-09-04T15:01:17Z",
+                        "xdm:linkURL": "http://localhost:4502/content/wknd/language-masters/en/magazine/ski-touring.site.api/content.json"
+                      }
+                    },
+                    "description": "Learn about our ski touring experience and how it differs from traditional downhill skiing and even backcountry skiing.",
+                    "id": "list-084fc720c8-item-70c9d14ac2",
+                    "lastModified": 1601512639105,
+                    "link": {
+                      "attributes": {
+                        "data-link-type": "internal",
+                        "data-valid": "true"
+                      },
+                      "url": "http://localhost:4502/content/wknd/language-masters/en/magazine/ski-touring.site.api/content.json",
+                      "valid": true
+                    },
+                    "path": "/content/wknd/language-masters/en/magazine/ski-touring",
+                    "title": "Ski Touring"
+                  }, {
+                    ":type": "wknd/components/page",
+                    "dataLayer": {
+                      "list-084fc720c8-item-c2b88884fd": {
+                        "@type": "wknd/components/page/item",
+                        "dc:title": "Arctic Surfing",
+                        "repo:modifyDate": "2023-09-04T15:01:17Z",
+                        "xdm:linkURL": "http://localhost:4502/content/wknd/language-masters/en/magazine/arctic-surfing.site.api/content.json"
+                      }
+                    },
+                    "description": "We traveled to Northern Norway to document the joy of surfing in extreme, but breathtakingly beautiful conditions.",
+                    "id": "list-084fc720c8-item-c2b88884fd",
+                    "lastModified": 1571018922752,
+                    "link": {
+                      "attributes": {
+                        "data-link-type": "internal",
+                        "data-valid": "true"
+                      },
+                      "url": "http://localhost:4502/content/wknd/language-masters/en/magazine/arctic-surfing.site.api/content.json",
+                      "valid": true
+                    },
+                    "path": "/content/wknd/language-masters/en/magazine/arctic-surfing",
+                    "title": "Arctic Surfing"
+                  }, {
+                    ":type": "wknd/components/page",
+                    "dataLayer": {
+                      "list-084fc720c8-item-10fce85b9c": {
+                        "@type": "wknd/components/page/item",
+                        "dc:title": "San Diego Surf Spots",
+                        "repo:modifyDate": "2023-09-04T15:01:17Z",
+                        "xdm:linkURL": "http://localhost:4502/content/wknd/language-masters/en/magazine/san-diego-surf.site.api/content.json"
+                      }
+                    },
+                    "description": "From the hippie beaches of Ocean Beach to the ritzy shores of La Jolla and everywhere in between. Discover the San Diego surf scene.",
+                    "id": "list-084fc720c8-item-10fce85b9c",
+                    "lastModified": 1594171814684,
+                    "link": {
+                      "attributes": {
+                        "data-link-type": "internal",
+                        "data-valid": "true"
+                      },
+                      "url": "http://localhost:4502/content/wknd/language-masters/en/magazine/san-diego-surf.site.api/content.json",
+                      "valid": true
+                    },
+                    "path": "/content/wknd/language-masters/en/magazine/san-diego-surf",
+                    "title": "San Diego Surf Spots"
+                  }]
+                },
+                "separator": {
+                  ":type": "wknd/components/separator"
+                },
+                "teaser": {
+                  ":type": "wknd/components/teaser",
+                  "actions": [{
+                    ":type": "wcm-io/handler/link/synthetic/resource",
+                    "dataLayer": {
+                      "featured-teaser-home-cta-02ce9da1e0": {
+                        "@type": "wknd/components/page/item",
+                        "dc:title": "Full Article",
+                        "xdm:linkURL": "http://localhost:4502/content/wknd/language-masters/en/magazine/western-australia.site.api/content.json"
+                      }
+                    },
+                    "id": "featured-teaser-home-cta-02ce9da1e0",
+                    "link": {
+                      "attributes": {
+                        "data-link-type": "internal",
+                        "data-valid": "true"
+                      },
+                      "url": "http://localhost:4502/content/wknd/language-masters/en/magazine/western-australia.site.api/content.json",
+                      "valid": true
+                    },
+                    "title": "Full Article"
+                  }],
+                  "actionsEnabled": true,
+                  "appliedCssClassNames": "cmp-teaser--featured",
+                  "dataLayer": {
+                    "featured-teaser-home": {
+                      "@type": "wknd/components/teaser",
+                      "dc:description": "The Australian West coast is a camper’s heaven. Endless miles of desert roads leading to secret beaches, vast canyons and crystal clear rivers, and the very few people you are likely to meet on your journey will be some of the most easy-going characters you’ll find anywhere in the world. ",
+                      "dc:title": "Camping in Western Australia",
+                      "repo:modifyDate": "2020-09-30T22:16:26Z"
+                    }
+                  },
+                  "description": "The Australian West coast is a camper’s heaven. Endless miles of desert roads leading to secret beaches, vast canyons and crystal clear rivers, and the very few people you are likely to meet on your journey will be some of the most easy-going characters you’ll find anywhere in the world. ",
+                  "id": "featured-teaser-home",
+                  "imageLinkHidden": false,
+                  "pretitle": "Featured Article",
+                  "title": "Camping in Western Australia",
+                  "titleLinkHidden": false,
+                  "wcmio:mediaURL": "http://localhost:4502/content/dam/wknd-shared/en/magazine/western-australia/adobestock-156407519.jpeg/_jcr_content/renditions/original./adobestock-156407519.jpeg",
+                  "wcmio:mediaValid": true
+                },
+                "title": {
+                  ":type": "wknd/components/title",
+                  "appliedCssClassNames": "cmp-title--underline",
+                  "dataLayer": {
+                    "title-bbebb5a61d": {
+                      "@type": "wknd/components/title",
+                      "dc:title": "Recent Articles",
+                      "repo:modifyDate": "2019-10-21T17:52:21Z"
+                    }
+                  },
+                  "id": "title-bbebb5a61d",
+                  "linkDisabled": false,
+                  "text": "Recent Articles",
+                  "type": "h2"
+                },
+                "title_15771435": {
+                  ":type": "wknd/components/title",
+                  "appliedCssClassNames": "cmp-title--underline",
+                  "dataLayer": {
+                    "title-e35cce7743": {
+                      "@type": "wknd/components/title",
+                      "dc:title": "Next Adventures",
+                      "repo:modifyDate": "2019-10-21T18:30:47Z"
+                    }
+                  },
+                  "id": "title-e35cce7743",
+                  "linkDisabled": false,
+                  "text": "Next Adventures",
+                  "type": "h2"
+                }
+              },
+              ":itemsOrder": ["teaser", "title", "image_list", "button_copy", "separator", "title_15771435"],
+              ":type": "wknd/components/container",
+              "appliedCssClassNames": "cmp-layout-container--fixed",
+              "dataLayer": {
+                "container-f5723a3043": {
+                  "@type": "wknd/components/container",
+                  "repo:modifyDate": "2020-10-01T00:28:16Z"
+                }
+              },
+              "id": "container-f5723a3043",
+              "layout": "RESPONSIVE_GRID"
+            },
+            "container_1679842506": {
+              ":items": {
+                "button": {
+                  ":type": "wknd/components/button",
+                  "accessibilityLabel": "explore our adventures",
+                  "appliedCssClassNames": "cmp-button--primary",
+                  "dataLayer": {
+                    "button-3301357acc": {
+                      "@type": "wknd/components/button",
+                      "dc:title": "All Trips",
+                      "repo:modifyDate": "2020-09-30T22:15:32Z"
+                    }
+                  },
+                  "id": "button-3301357acc",
+                  "text": "All Trips"
+                },
+                "image_list": {
+                  ":type": "wknd/components/image-list",
+                  "dataLayer": {
+                    "list-5826da5df2": {
+                      "@type": "wknd/components/image-list",
+                      "repo:modifyDate": "2019-10-26T01:00:14Z"
+                    }
+                  },
+                  "dateFormatString": "yyyy-MM-dd",
+                  "id": "list-5826da5df2",
+                  "items": [{
+                    ":type": "wknd/components/page",
+                    "dataLayer": {
+                      "list-5826da5df2-item-b2a48aab5d": {
+                        "@type": "wknd/components/page/item",
+                        "dc:title": "Yosemite Backpacking",
+                        "repo:modifyDate": "2023-09-04T15:01:16Z",
+                        "xdm:linkURL": "http://localhost:4502/content/wknd/language-masters/en/adventures/yosemite-backpacking.site.api/content.json"
+                      }
+                    },
+                    "description": "Yosemite National Park, designated a World Heritage Site in 1984, is best known for its granite cliffs, waterfalls and giant sequoias, but within its nearly 1,200 square miles, you can find deep valleys, grand meadows, glaciers and lakes. The majority of visitors spend their time in the Yosemite Valley, which we'll also explore, but on this trip we'll take you to the backcountry that inspired John Muir to lead a movement to have Congress establish Yosemite as we know it today.",
+                    "id": "list-5826da5df2-item-b2a48aab5d",
+                    "lastModified": 1604866854974,
+                    "link": {
+                      "attributes": {
+                        "data-link-type": "internal",
+                        "data-valid": "true"
+                      },
+                      "url": "http://localhost:4502/content/wknd/language-masters/en/adventures/yosemite-backpacking.site.api/content.json",
+                      "valid": true
+                    },
+                    "path": "/content/wknd/language-masters/en/adventures/yosemite-backpacking",
+                    "title": "Yosemite Backpacking"
+                  }, {
+                    ":type": "wknd/components/page",
+                    "dataLayer": {
+                      "list-5826da5df2-item-6857c54bfb": {
+                        "@type": "wknd/components/page/item",
+                        "dc:title": "Whistler Mountain Biking",
+                        "repo:modifyDate": "2023-09-04T15:01:16Z",
+                        "xdm:linkURL": "http://localhost:4502/content/wknd/language-masters/en/adventures/whistler-mountain-biking.site.api/content.json"
+                      }
+                    },
+                    "description": "Whistler is often considered North America’s preeminent mountain bike destination.  Let us show you why.",
+                    "id": "list-5826da5df2-item-6857c54bfb",
+                    "lastModified": 1594260347861,
+                    "link": {
+                      "attributes": {
+                        "data-link-type": "internal",
+                        "data-valid": "true"
+                      },
+                      "url": "http://localhost:4502/content/wknd/language-masters/en/adventures/whistler-mountain-biking.site.api/content.json",
+                      "valid": true
+                    },
+                    "path": "/content/wknd/language-masters/en/adventures/whistler-mountain-biking",
+                    "title": "Whistler Mountain Biking"
+                  }, {
+                    ":type": "wknd/components/page",
+                    "dataLayer": {
+                      "list-5826da5df2-item-7e8369ec3f": {
+                        "@type": "wknd/components/page/item",
+                        "dc:title": "West Coast Cycling",
+                        "repo:modifyDate": "2023-09-04T15:01:16Z",
+                        "xdm:linkURL": "http://localhost:4502/content/wknd/language-masters/en/adventures/west-coast-cycling.site.api/content.json"
+                      }
+                    },
+                    "description": "Join us for this once in a lifetime bike trip traveling from San Francisco to Portland cycling along the Pacific Coast. Experience world class terrain as we head north through redwood forests, state parks, the Columbia river and the Pacific ocean.",
+                    "id": "list-5826da5df2-item-7e8369ec3f",
+                    "lastModified": 1604867299148,
+                    "link": {
+                      "attributes": {
+                        "data-link-type": "internal",
+                        "data-valid": "true"
+                      },
+                      "url": "http://localhost:4502/content/wknd/language-masters/en/adventures/west-coast-cycling.site.api/content.json",
+                      "valid": true
+                    },
+                    "path": "/content/wknd/language-masters/en/adventures/west-coast-cycling",
+                    "title": "West Coast Cycling"
+                  }, {
+                    ":type": "wknd/components/page",
+                    "dataLayer": {
+                      "list-5826da5df2-item-fe890635f9": {
+                        "@type": "wknd/components/page/item",
+                        "dc:title": "Tahoe Skiing",
+                        "repo:modifyDate": "2023-09-04T15:01:16Z",
+                        "xdm:linkURL": "http://localhost:4502/content/wknd/language-masters/en/adventures/tahoe-skiing.site.api/content.json"
+                      }
+                    },
+                    "description": "Great weather, crystal clear lake water, and a relaxed California attitude make Lake Tahoe one of the most desirable ski destinations in the world. Few ski areas rival Lake Tahoe for its excellent snow conditions, challenging terrain and state-of-the-art lift chairs. Lake Tahoe is home to dozens of resorts and we'll be your guide for the best of them.",
+                    "id": "list-5826da5df2-item-fe890635f9",
+                    "lastModified": 1604866337248,
+                    "link": {
+                      "attributes": {
+                        "data-link-type": "internal",
+                        "data-valid": "true"
+                      },
+                      "url": "http://localhost:4502/content/wknd/language-masters/en/adventures/tahoe-skiing.site.api/content.json",
+                      "valid": true
+                    },
+                    "path": "/content/wknd/language-masters/en/adventures/tahoe-skiing",
+                    "title": "Tahoe Skiing"
+                  }]
+                },
+                "separator": {
+                  ":type": "wknd/components/separator"
+                },
+                "title": {
+                  ":type": "wknd/components/title",
+                  "dataLayer": {
+                    "title-2400750267": {
+                      "@type": "wknd/components/title",
+                      "dc:title": "Where do you want to go?",
+                      "repo:modifyDate": "2019-10-21T18:35:03Z"
+                    }
+                  },
+                  "id": "title-2400750267",
+                  "linkDisabled": false,
+                  "text": "Where do you want to go?",
+                  "type": "h3"
+                }
+              },
+              ":itemsOrder": ["title", "image_list", "button", "separator"],
+              ":type": "wknd/components/container",
+              "appliedCssClassNames": "cmp-layout-container--fixed",
+              "dataLayer": {
+                "container-b4ba247e21": {
+                  "@type": "wknd/components/container",
+                  "repo:modifyDate": "2020-10-01T00:28:28Z"
+                }
+              },
+              "id": "container-b4ba247e21",
+              "layout": "RESPONSIVE_GRID"
+            },
+            "teaser": {
+              ":type": "wknd/components/teaser",
+              "actions": [{
+                ":type": "wcm-io/handler/link/synthetic/resource",
+                "dataLayer": {
+                  "teaser-d9ec8d822c-cta-d9ec8d822c": {
+                    "@type": "wknd/components/page/item",
+                    "dc:title": "See Trip",
+                    "xdm:linkURL": "http://localhost:4502/content/wknd/language-masters/en/adventures/climbing-new-zealand.site.api/content.json"
+                  }
+                },
+                "id": "teaser-d9ec8d822c-cta-d9ec8d822c",
+                "link": {
+                  "attributes": {
+                    "data-link-type": "internal",
+                    "data-valid": "true"
+                  },
+                  "url": "http://localhost:4502/content/wknd/language-masters/en/adventures/climbing-new-zealand.site.api/content.json",
+                  "valid": true
+                },
+                "title": "See Trip"
+              }],
+              "actionsEnabled": true,
+              "appliedCssClassNames": "cmp-teaser--hero cmp-teaser--imagebottom",
+              "dataLayer": {
+                "teaser-d9ec8d822c": {
+                  "@type": "wknd/components/teaser",
+                  "dc:description": "Let us help you make your New Zealand climbing vacation a memory you will cherish forever! Come join us for a guided rock climbing adventure in the mountains that trained Sir Edmund Hilary. ",
+                  "dc:title": "Climbing New Zealand",
+                  "repo:modifyDate": "2019-10-27T23:12:59Z"
+                }
+              },
+              "description": "Let us help you make your New Zealand climbing vacation a memory you will cherish forever! Come join us for a guided rock climbing adventure in the mountains that trained Sir Edmund Hilary. ",
+              "id": "teaser-d9ec8d822c",
+              "imageLinkHidden": false,
+              "title": "Climbing New Zealand",
+              "titleLinkHidden": false,
+              "wcmio:mediaURL": "http://localhost:4502/content/dam/wknd-shared/en/adventures/climbing-new-zealand/adobestock-140634652.jpeg/_jcr_content/renditions/original./adobestock-140634652.jpeg",
+              "wcmio:mediaValid": true
+            }
+          },
+          ":itemsOrder": ["carousel", "container", "teaser", "container_1679842506"],
+          ":type": "wknd/components/container",
+          "dataLayer": {
+            "container-4f36a4ce43": {
+              "@type": "wknd/components/container",
+              "repo:modifyDate": "2020-10-01T00:28:07Z"
+            }
+          },
+          "id": "container-4f36a4ce43",
+          "layout": "RESPONSIVE_GRID"
+        },
+        "header": {
+          ":items": {
+            "root": {
+              ":items": {
+                "container": {
+                  ":items": {
+                    "container": {
+                      ":items": {
+                        "languagenavigation": {
+                          ":type": "wknd/components/languagenavigation",
+                          "appliedCssClassNames": "cmp-languagenavigation--default cmp-languagenavigation--dark cmp-languagenavigation--header",
+                          "dataLayer": {
+                            "languagenavigation-ac5c6a67dc": {
+                              "@type": "wknd/components/languagenavigation",
+                              "repo:modifyDate": "2019-09-16T20:42:32Z"
+                            }
+                          },
+                          "id": "languagenavigation-ac5c6a67dc",
+                          "items": [{
+                            ":type": "wknd/components/page",
+                            "active": false,
+                            "children": [{
+                              ":type": "wknd/components/page",
+                              "active": false,
+                              "children": [],
+                              "country": "US",
+                              "current": false,
+                              "dataLayer": {
+                                "languagenavigation-ac5c6a67dc-item-2eee4f8914": {
+                                  "@type": "wknd/components/page/item",
+                                  "dc:title": "WKND Adventures and Travel",
+                                  "repo:modifyDate": "2023-09-04T15:01:13Z",
+                                  "xdm:language": "en-US",
+                                  "xdm:linkURL": "http://localhost:4502/content/wknd/us/en.site.api/content.json"
+                                }
+                              },
+                              "description": "WKND is a collective of outdoors, music, crafts, adventure sports, and travel enthusiasts that want to share our experiences, connections, and expertise with the world.",
+                              "id": "languagenavigation-ac5c6a67dc-item-2eee4f8914",
+                              "language": "en-US",
+                              "lastModified": 1601512686578,
+                              "level": 1,
+                              "link": {
+                                "attributes": {
+                                  "data-link-type": "internal",
+                                  "data-valid": "true"
+                                },
+                                "url": "http://localhost:4502/content/wknd/us/en.site.api/content.json",
+                                "valid": true
+                              },
+                              "locale": "en_US",
+                              "path": "/content/wknd/us/en",
+                              "title": "WKND Adventures and Travel"
+                            }, {
+                              ":type": "wknd/components/page",
+                              "active": false,
+                              "children": [],
+                              "country": "US",
+                              "current": false,
+                              "dataLayer": {
+                                "languagenavigation-ac5c6a67dc-item-e13663a06d": {
+                                  "@type": "wknd/components/page/item",
+                                  "dc:title": "Español",
+                                  "repo:modifyDate": "2023-09-04T15:01:18Z",
+                                  "xdm:language": "es-US",
+                                  "xdm:linkURL": "http://localhost:4502/content/wknd/us/es.site.api/content.json"
+                                }
+                              },
+                              "id": "languagenavigation-ac5c6a67dc-item-e13663a06d",
+                              "language": "es-US",
+                              "lastModified": 1594310660091,
+                              "level": 1,
+                              "link": {
+                                "attributes": {
+                                  "data-link-type": "internal",
+                                  "data-valid": "true"
+                                },
+                                "url": "http://localhost:4502/content/wknd/us/es.site.api/content.json",
+                                "valid": true
+                              },
+                              "locale": "es_US",
+                              "path": "/content/wknd/us/es",
+                              "title": "Español"
+                            }],
+                            "country": "US",
+                            "current": false,
+                            "dataLayer": {
+                              "languagenavigation-ac5c6a67dc-item-2eee4f8914": {
+                                "@type": "wknd/components/page/item",
+                                "dc:title": "United States",
+                                "repo:modifyDate": "2023-09-04T15:01:13Z",
+                                "xdm:language": "en-US",
+                                "xdm:linkURL": "http://localhost:4502/content/wknd/us/en.site.api/content.json"
+                              }
+                            },
+                            "description": "WKND is a collective of outdoors, music, crafts, adventure sports, and travel enthusiasts that want to share our experiences, connections, and expertise with the world.",
+                            "id": "languagenavigation-ac5c6a67dc-item-2eee4f8914",
+                            "language": "en-US",
+                            "lastModified": 1601512686578,
+                            "level": 0,
+                            "link": {
+                              "attributes": {
+                                "data-link-type": "internal",
+                                "data-valid": "true"
+                              },
+                              "url": "http://localhost:4502/content/wknd/us/en.site.api/content.json",
+                              "valid": true
+                            },
+                            "locale": "en_US",
+                            "path": "/content/wknd/us/en",
+                            "title": "United States"
+                          }, {
+                            ":type": "wknd/components/page",
+                            "active": false,
+                            "children": [{
+                              ":type": "wknd/components/page",
+                              "active": false,
+                              "children": [],
+                              "country": "CA",
+                              "current": false,
+                              "dataLayer": {
+                                "languagenavigation-ac5c6a67dc-item-f24f527a22": {
+                                  "@type": "wknd/components/page/item",
+                                  "dc:title": "WKND Adventures and Travel",
+                                  "repo:modifyDate": "2023-09-04T15:01:14Z",
+                                  "xdm:language": "en-CA",
+                                  "xdm:linkURL": "http://localhost:4502/content/wknd/ca/en.site.api/content.json"
+                                }
+                              },
+                              "description": "WKND is a collective of outdoors, music, crafts, adventure sports, and travel enthusiasts that want to share our experiences, connections, and expertise with the world.",
+                              "id": "languagenavigation-ac5c6a67dc-item-f24f527a22",
+                              "language": "en-CA",
+                              "lastModified": 1601512685651,
+                              "level": 1,
+                              "link": {
+                                "attributes": {
+                                  "data-link-type": "internal",
+                                  "data-valid": "true"
+                                },
+                                "url": "http://localhost:4502/content/wknd/ca/en.site.api/content.json",
+                                "valid": true
+                              },
+                              "locale": "en_CA",
+                              "path": "/content/wknd/ca/en",
+                              "title": "WKND Adventures and Travel"
+                            }, {
+                              ":type": "wknd/components/page",
+                              "active": false,
+                              "children": [],
+                              "country": "CA",
+                              "current": false,
+                              "dataLayer": {
+                                "languagenavigation-ac5c6a67dc-item-11fcab30d0": {
+                                  "@type": "wknd/components/page/item",
+                                  "dc:title": "Français",
+                                  "repo:modifyDate": "2023-09-04T15:01:16Z",
+                                  "xdm:language": "fr-CA",
+                                  "xdm:linkURL": "http://localhost:4502/content/wknd/ca/fr.site.api/content.json"
+                                }
+                              },
+                              "id": "languagenavigation-ac5c6a67dc-item-11fcab30d0",
+                              "language": "fr-CA",
+                              "lastModified": 1594310773644,
+                              "level": 1,
+                              "link": {
+                                "attributes": {
+                                  "data-link-type": "internal",
+                                  "data-valid": "true"
+                                },
+                                "url": "http://localhost:4502/content/wknd/ca/fr.site.api/content.json",
+                                "valid": true
+                              },
+                              "locale": "fr_CA",
+                              "path": "/content/wknd/ca/fr",
+                              "title": "Français"
+                            }],
+                            "country": "CA",
+                            "current": false,
+                            "dataLayer": {
+                              "languagenavigation-ac5c6a67dc-item-f24f527a22": {
+                                "@type": "wknd/components/page/item",
+                                "dc:title": "Canada",
+                                "repo:modifyDate": "2023-09-04T15:01:14Z",
+                                "xdm:language": "en-CA",
+                                "xdm:linkURL": "http://localhost:4502/content/wknd/ca/en.site.api/content.json"
+                              }
+                            },
+                            "description": "WKND is a collective of outdoors, music, crafts, adventure sports, and travel enthusiasts that want to share our experiences, connections, and expertise with the world.",
+                            "id": "languagenavigation-ac5c6a67dc-item-f24f527a22",
+                            "language": "en-CA",
+                            "lastModified": 1601512685651,
+                            "level": 0,
+                            "link": {
+                              "attributes": {
+                                "data-link-type": "internal",
+                                "data-valid": "true"
+                              },
+                              "url": "http://localhost:4502/content/wknd/ca/en.site.api/content.json",
+                              "valid": true
+                            },
+                            "locale": "en_CA",
+                            "path": "/content/wknd/ca/en",
+                            "title": "Canada"
+                          }, {
+                            ":type": "wknd/components/page",
+                            "active": false,
+                            "children": [{
+                              ":type": "wknd/components/page",
+                              "active": false,
+                              "children": [],
+                              "country": "CH",
+                              "current": false,
+                              "dataLayer": {
+                                "languagenavigation-ac5c6a67dc-item-393be5cdc0": {
+                                  "@type": "wknd/components/page/item",
+                                  "dc:title": "Deutsch",
+                                  "repo:modifyDate": "2023-09-04T15:01:16Z",
+                                  "xdm:language": "de-CH",
+                                  "xdm:linkURL": "http://localhost:4502/content/wknd/ch/de.site.api/content.json"
+                                }
+                              },
+                              "id": "languagenavigation-ac5c6a67dc-item-393be5cdc0",
+                              "language": "de-CH",
+                              "lastModified": 1594310792817,
+                              "level": 1,
+                              "link": {
+                                "attributes": {
+                                  "data-link-type": "internal",
+                                  "data-valid": "true"
+                                },
+                                "url": "http://localhost:4502/content/wknd/ch/de.site.api/content.json",
+                                "valid": true
+                              },
+                              "locale": "de_CH",
+                              "path": "/content/wknd/ch/de",
+                              "title": "Deutsch"
+                            }, {
+                              ":type": "wknd/components/page",
+                              "active": false,
+                              "children": [],
+                              "country": "CH",
+                              "current": false,
+                              "dataLayer": {
+                                "languagenavigation-ac5c6a67dc-item-7e5a2b64a6": {
+                                  "@type": "wknd/components/page/item",
+                                  "dc:title": "Français",
+                                  "repo:modifyDate": "2023-09-04T15:01:16Z",
+                                  "xdm:language": "fr-CH",
+                                  "xdm:linkURL": "http://localhost:4502/content/wknd/ch/fr.site.api/content.json"
+                                }
+                              },
+                              "id": "languagenavigation-ac5c6a67dc-item-7e5a2b64a6",
+                              "language": "fr-CH",
+                              "lastModified": 1594310822669,
+                              "level": 1,
+                              "link": {
+                                "attributes": {
+                                  "data-link-type": "internal",
+                                  "data-valid": "true"
+                                },
+                                "url": "http://localhost:4502/content/wknd/ch/fr.site.api/content.json",
+                                "valid": true
+                              },
+                              "locale": "fr_CH",
+                              "path": "/content/wknd/ch/fr",
+                              "title": "Français"
+                            }, {
+                              ":type": "wknd/components/page",
+                              "active": false,
+                              "children": [],
+                              "country": "CH",
+                              "current": false,
+                              "dataLayer": {
+                                "languagenavigation-ac5c6a67dc-item-87145e28c8": {
+                                  "@type": "wknd/components/page/item",
+                                  "dc:title": "Italiano",
+                                  "repo:modifyDate": "2023-09-04T15:01:16Z",
+                                  "xdm:language": "it-CH",
+                                  "xdm:linkURL": "http://localhost:4502/content/wknd/ch/it.site.api/content.json"
+                                }
+                              },
+                              "id": "languagenavigation-ac5c6a67dc-item-87145e28c8",
+                              "language": "it-CH",
+                              "lastModified": 1594310836258,
+                              "level": 1,
+                              "link": {
+                                "attributes": {
+                                  "data-link-type": "internal",
+                                  "data-valid": "true"
+                                },
+                                "url": "http://localhost:4502/content/wknd/ch/it.site.api/content.json",
+                                "valid": true
+                              },
+                              "locale": "it_CH",
+                              "path": "/content/wknd/ch/it",
+                              "title": "Italiano"
+                            }],
+                            "country": "CH",
+                            "current": false,
+                            "dataLayer": {
+                              "languagenavigation-ac5c6a67dc-item-c1c3a30c4d": {
+                                "@type": "wknd/components/page/item",
+                                "dc:title": "Switzerland",
+                                "repo:modifyDate": "2023-09-04T15:01:16Z",
+                                "xdm:language": "de-CH",
+                                "xdm:linkURL": "http://localhost:4502/content/wknd/ch.site.api/content.json"
+                              }
+                            },
+                            "id": "languagenavigation-ac5c6a67dc-item-c1c3a30c4d",
+                            "language": "de-CH",
+                            "lastModified": 1569522729269,
+                            "level": 0,
+                            "link": {
+                              "attributes": {
+                                "data-link-type": "internal",
+                                "data-valid": "true"
+                              },
+                              "url": "http://localhost:4502/content/wknd/ch.site.api/content.json",
+                              "valid": true
+                            },
+                            "locale": "de_CH",
+                            "path": "/content/wknd/ch",
+                            "title": "Switzerland"
+                          }, {
+                            ":type": "wknd/components/page",
+                            "active": false,
+                            "children": [{
+                              ":type": "wknd/components/page",
+                              "active": false,
+                              "children": [],
+                              "country": "DE",
+                              "current": false,
+                              "dataLayer": {
+                                "languagenavigation-ac5c6a67dc-item-c0b9aff709": {
+                                  "@type": "wknd/components/page/item",
+                                  "dc:title": "Deutsch",
+                                  "repo:modifyDate": "2023-09-04T15:01:16Z",
+                                  "xdm:language": "de-DE",
+                                  "xdm:linkURL": "http://localhost:4502/content/wknd/de/de.site.api/content.json"
+                                }
+                              },
+                              "id": "languagenavigation-ac5c6a67dc-item-c0b9aff709",
+                              "language": "de-DE",
+                              "lastModified": 1594310467071,
+                              "level": 1,
+                              "link": {
+                                "attributes": {
+                                  "data-link-type": "internal",
+                                  "data-valid": "true"
+                                },
+                                "url": "http://localhost:4502/content/wknd/de/de.site.api/content.json",
+                                "valid": true
+                              },
+                              "locale": "de_DE",
+                              "path": "/content/wknd/de/de",
+                              "title": "Deutsch"
+                            }],
+                            "country": "DE",
+                            "current": false,
+                            "dataLayer": {
+                              "languagenavigation-ac5c6a67dc-item-142d51aa5d": {
+                                "@type": "wknd/components/page/item",
+                                "dc:title": "Germany",
+                                "repo:modifyDate": "2023-09-04T15:01:16Z",
+                                "xdm:language": "de-DE",
+                                "xdm:linkURL": "http://localhost:4502/content/wknd/de.site.api/content.json"
+                              }
+                            },
+                            "id": "languagenavigation-ac5c6a67dc-item-142d51aa5d",
+                            "language": "de-DE",
+                            "lastModified": 1569522794915,
+                            "level": 0,
+                            "link": {
+                              "attributes": {
+                                "data-link-type": "internal",
+                                "data-valid": "true"
+                              },
+                              "url": "http://localhost:4502/content/wknd/de.site.api/content.json",
+                              "valid": true
+                            },
+                            "locale": "de_DE",
+                            "path": "/content/wknd/de",
+                            "title": "Germany"
+                          }, {
+                            ":type": "wknd/components/page",
+                            "active": false,
+                            "children": [{
+                              ":type": "wknd/components/page",
+                              "active": false,
+                              "children": [],
+                              "country": "FR",
+                              "current": false,
+                              "dataLayer": {
+                                "languagenavigation-ac5c6a67dc-item-4aff955e58": {
+                                  "@type": "wknd/components/page/item",
+                                  "dc:title": "Français",
+                                  "repo:modifyDate": "2023-09-04T15:01:16Z",
+                                  "xdm:language": "fr-FR",
+                                  "xdm:linkURL": "http://localhost:4502/content/wknd/fr/fr.site.api/content.json"
+                                }
+                              },
+                              "id": "languagenavigation-ac5c6a67dc-item-4aff955e58",
+                              "language": "fr-FR",
+                              "lastModified": 1594310324064,
+                              "level": 1,
+                              "link": {
+                                "attributes": {
+                                  "data-link-type": "internal",
+                                  "data-valid": "true"
+                                },
+                                "url": "http://localhost:4502/content/wknd/fr/fr.site.api/content.json",
+                                "valid": true
+                              },
+                              "locale": "fr_FR",
+                              "path": "/content/wknd/fr/fr",
+                              "title": "Français"
+                            }],
+                            "country": "FR",
+                            "current": false,
+                            "dataLayer": {
+                              "languagenavigation-ac5c6a67dc-item-7282a1f074": {
+                                "@type": "wknd/components/page/item",
+                                "dc:title": "France",
+                                "repo:modifyDate": "2023-09-04T15:01:16Z",
+                                "xdm:language": "fr-FR",
+                                "xdm:linkURL": "http://localhost:4502/content/wknd/fr.site.api/content.json"
+                              }
+                            },
+                            "id": "languagenavigation-ac5c6a67dc-item-7282a1f074",
+                            "language": "fr-FR",
+                            "lastModified": 1569522827922,
+                            "level": 0,
+                            "link": {
+                              "attributes": {
+                                "data-link-type": "internal",
+                                "data-valid": "true"
+                              },
+                              "url": "http://localhost:4502/content/wknd/fr.site.api/content.json",
+                              "valid": true
+                            },
+                            "locale": "fr_FR",
+                            "path": "/content/wknd/fr",
+                            "title": "France"
+                          }, {
+                            ":type": "wknd/components/page",
+                            "active": false,
+                            "children": [{
+                              ":type": "wknd/components/page",
+                              "active": false,
+                              "children": [],
+                              "country": "ES",
+                              "current": false,
+                              "dataLayer": {
+                                "languagenavigation-ac5c6a67dc-item-f7ea54023c": {
+                                  "@type": "wknd/components/page/item",
+                                  "dc:title": "Español",
+                                  "repo:modifyDate": "2023-09-04T15:01:16Z",
+                                  "xdm:language": "es-ES",
+                                  "xdm:linkURL": "http://localhost:4502/content/wknd/es/es.site.api/content.json"
+                                }
+                              },
+                              "id": "languagenavigation-ac5c6a67dc-item-f7ea54023c",
+                              "language": "es-ES",
+                              "lastModified": 1594310509170,
+                              "level": 1,
+                              "link": {
+                                "attributes": {
+                                  "data-link-type": "internal",
+                                  "data-valid": "true"
+                                },
+                                "url": "http://localhost:4502/content/wknd/es/es.site.api/content.json",
+                                "valid": true
+                              },
+                              "locale": "es_ES",
+                              "path": "/content/wknd/es/es",
+                              "title": "Español"
+                            }],
+                            "country": "ES",
+                            "current": false,
+                            "dataLayer": {
+                              "languagenavigation-ac5c6a67dc-item-cf10e04f58": {
+                                "@type": "wknd/components/page/item",
+                                "dc:title": "Spain",
+                                "repo:modifyDate": "2023-09-04T15:01:16Z",
+                                "xdm:language": "es-ES",
+                                "xdm:linkURL": "http://localhost:4502/content/wknd/es.site.api/content.json"
+                              }
+                            },
+                            "id": "languagenavigation-ac5c6a67dc-item-cf10e04f58",
+                            "language": "es-ES",
+                            "lastModified": 1569522857692,
+                            "level": 0,
+                            "link": {
+                              "attributes": {
+                                "data-link-type": "internal",
+                                "data-valid": "true"
+                              },
+                              "url": "http://localhost:4502/content/wknd/es.site.api/content.json",
+                              "valid": true
+                            },
+                            "locale": "es_ES",
+                            "path": "/content/wknd/es",
+                            "title": "Spain"
+                          }, {
+                            ":type": "wknd/components/page",
+                            "active": false,
+                            "children": [{
+                              ":type": "wknd/components/page",
+                              "active": false,
+                              "children": [],
+                              "country": "IT",
+                              "current": false,
+                              "dataLayer": {
+                                "languagenavigation-ac5c6a67dc-item-03a44007a8": {
+                                  "@type": "wknd/components/page/item",
+                                  "dc:title": "Italiano",
+                                  "repo:modifyDate": "2023-09-04T15:01:16Z",
+                                  "xdm:language": "it-IT",
+                                  "xdm:linkURL": "http://localhost:4502/content/wknd/it/it.site.api/content.json"
+                                }
+                              },
+                              "id": "languagenavigation-ac5c6a67dc-item-03a44007a8",
+                              "language": "it-IT",
+                              "lastModified": 1594310395586,
+                              "level": 1,
+                              "link": {
+                                "attributes": {
+                                  "data-link-type": "internal",
+                                  "data-valid": "true"
+                                },
+                                "url": "http://localhost:4502/content/wknd/it/it.site.api/content.json",
+                                "valid": true
+                              },
+                              "locale": "it_IT",
+                              "path": "/content/wknd/it/it",
+                              "title": "Italiano"
+                            }],
+                            "country": "IT",
+                            "current": false,
+                            "dataLayer": {
+                              "languagenavigation-ac5c6a67dc-item-196468db48": {
+                                "@type": "wknd/components/page/item",
+                                "dc:title": "Italy",
+                                "repo:modifyDate": "2023-09-04T15:01:16Z",
+                                "xdm:language": "it-IT",
+                                "xdm:linkURL": "http://localhost:4502/content/wknd/it.site.api/content.json"
+                              }
+                            },
+                            "id": "languagenavigation-ac5c6a67dc-item-196468db48",
+                            "language": "it-IT",
+                            "lastModified": 1569522882325,
+                            "level": 0,
+                            "link": {
+                              "attributes": {
+                                "data-link-type": "internal",
+                                "data-valid": "true"
+                              },
+                              "url": "http://localhost:4502/content/wknd/it.site.api/content.json",
+                              "valid": true
+                            },
+                            "locale": "it_IT",
+                            "path": "/content/wknd/it",
+                            "title": "Italy"
+                          }]
+                        },
+                        "sign-in-buttons": {
+                          ":type": "wknd/components/form/sign-in-buttons",
+                          "greetingLabel": "Welcome",
+                          "signInLabel": "Sign In",
+                          "signInXfPath": "/content/experience-fragments/wknd/language-masters/en/site/sign-in/master",
+                          "signOutLabel": "Sign Out",
+                          "signOutXfPath": "/content/experience-fragments/wknd/language-masters/en/site/sign-out/master"
+                        }
+                      },
+                      ":itemsOrder": ["sign-in-buttons", "languagenavigation"],
+                      ":type": "wknd/components/container",
+                      "appliedCssClassNames": "cmp-layoutcontainer--utility",
+                      "dataLayer": {
+                        "container-42405427ac": {
+                          "@type": "wknd/components/container",
+                          "repo:modifyDate": "2020-07-08T00:35:40Z"
+                        }
+                      },
+                      "id": "container-42405427ac",
+                      "layout": "RESPONSIVE_GRID"
+                    },
+                    "container_1195249223": {
+                      ":items": {
+                        "image": {
+                          ":type": "wknd/components/image",
+                          "alt": "WKND Logo",
+                          "appliedCssClassNames": "cmp-image--logo",
+                          "dataLayer": {
+                            "image-1f45f4e6a7": {
+                              "@type": "wknd/components/image",
+                              "image": {
+                                "@type": "image/svg+xml",
+                                "repo:id": "cd28256f-f150-4ccd-b247-88af24af6708",
+                                "repo:modifyDate": "2020-07-10T20:21:39Z",
+                                "repo:path": "/content/dam/wknd/en/site/wknd-logo-dk.svg"
+                              },
+                              "repo:modifyDate": "2020-07-10T20:22:40Z",
+                              "xdm:linkURL": "#"
+                            }
+                          },
+                          "decorative": false,
+                          "dmImage": false,
+                          "id": "image-1f45f4e6a7",
+                          "imageLink": {
+                            "attributes": {
+                              "data-link-type": "external",
+                              "data-valid": "true"
+                            },
+                            "url": "#",
+                            "valid": true
+                          },
+                          "lazyEnabled": true,
+                          "lazyThreshold": 0,
+                          "link": "#",
+                          "src": "http://localhost:4502/content/dam/wknd/en/site/wknd-logo-dk.svg/_jcr_content/renditions/original./wknd-logo-dk.svg",
+                          "wcmio:mediaURL": "http://localhost:4502/content/dam/wknd/en/site/wknd-logo-dk.svg/_jcr_content/renditions/original./wknd-logo-dk.svg",
+                          "wcmio:mediaValid": true,
+                          "widths": [240]
+                        },
+                        "navigation": {
+                          ":type": "wknd/components/navigation",
+                          "appliedCssClassNames": "cmp-navigation--header",
+                          "dataLayer": {
+                            "navigation-ff05112fb0": {
+                              "@type": "wknd/components/navigation",
+                              "repo:modifyDate": "2019-09-18T20:03:47Z"
+                            }
+                          },
+                          "id": "navigation-ff05112fb0",
+                          "items": [{
+                            ":type": "wknd/components/page",
+                            "active": true,
+                            "children": [{
+                              ":type": "wknd/components/page",
+                              "active": false,
+                              "children": [],
+                              "current": false,
+                              "dataLayer": {
+                                "navigation-ff05112fb0-item-9ac1de036a": {
+                                  "@type": "wknd/components/page/item",
+                                  "dc:title": "Magazine",
+                                  "repo:modifyDate": "2023-09-04T15:01:16Z",
+                                  "xdm:linkURL": "http://localhost:4502/content/wknd/language-masters/en/magazine.site.api/content.json"
+                                }
+                              },
+                              "description": "Read articles about adventures and activities that we've recently experienced and would love to share with our community.",
+                              "id": "navigation-ff05112fb0-item-9ac1de036a",
+                              "lastModified": 1601512618293,
+                              "level": 1,
+                              "link": {
+                                "attributes": {
+                                  "data-link-type": "internal",
+                                  "data-valid": "true"
+                                },
+                                "url": "http://localhost:4502/content/wknd/language-masters/en/magazine.site.api/content.json",
+                                "valid": true
+                              },
+                              "path": "/content/wknd/language-masters/en/magazine",
+                              "title": "Magazine"
+                            }, {
+                              ":type": "wknd/components/page",
+                              "active": false,
+                              "children": [],
+                              "current": false,
+                              "dataLayer": {
+                                "navigation-ff05112fb0-item-bd1e5340a8": {
+                                  "@type": "wknd/components/page/item",
+                                  "dc:title": "Adventures",
+                                  "repo:modifyDate": "2023-09-04T15:01:16Z",
+                                  "xdm:linkURL": "http://localhost:4502/content/wknd/language-masters/en/adventures.site.api/content.json"
+                                }
+                              },
+                              "description": "Join us on one of our next adventures.  Browse our list of curated experiences and sign up for one when you're ready to explore with us.",
+                              "id": "navigation-ff05112fb0-item-bd1e5340a8",
+                              "lastModified": 1601512176258,
+                              "level": 1,
+                              "link": {
+                                "attributes": {
+                                  "data-link-type": "internal",
+                                  "data-valid": "true"
+                                },
+                                "url": "http://localhost:4502/content/wknd/language-masters/en/adventures.site.api/content.json",
+                                "valid": true
+                              },
+                              "path": "/content/wknd/language-masters/en/adventures",
+                              "title": "Adventures"
+                            }, {
+                              ":type": "wknd/components/page",
+                              "active": false,
+                              "children": [],
+                              "current": false,
+                              "dataLayer": {
+                                "navigation-ff05112fb0-item-be2d0c160a": {
+                                  "@type": "wknd/components/page/item",
+                                  "dc:title": "FAQs",
+                                  "repo:modifyDate": "2023-09-04T15:01:16Z",
+                                  "xdm:linkURL": "http://localhost:4502/content/wknd/language-masters/en/faqs.site.api/content.json"
+                                }
+                              },
+                              "description": "Here we answer some of the questions that we hear most often from the community.",
+                              "id": "navigation-ff05112fb0-item-be2d0c160a",
+                              "lastModified": 1594169897582,
+                              "level": 1,
+                              "link": {
+                                "attributes": {
+                                  "data-link-type": "internal",
+                                  "data-valid": "true"
+                                },
+                                "url": "http://localhost:4502/content/wknd/language-masters/en/faqs.site.api/content.json",
+                                "valid": true
+                              },
+                              "path": "/content/wknd/language-masters/en/faqs",
+                              "title": "FAQs"
+                            }, {
+                              ":type": "wknd/components/page",
+                              "active": false,
+                              "children": [],
+                              "current": false,
+                              "dataLayer": {
+                                "navigation-ff05112fb0-item-ea6527549f": {
+                                  "@type": "wknd/components/page/item",
+                                  "dc:title": "About Us",
+                                  "repo:modifyDate": "2023-09-04T15:01:16Z",
+                                  "xdm:linkURL": "http://localhost:4502/content/wknd/language-masters/en/about-us.site.api/content.json"
+                                }
+                              },
+                              "description": "WKND is a collective of outdoors, music, crafts, adventure sports, and travel enthusiasts that want to share our experiences, connections, and expertise with the world. ",
+                              "id": "navigation-ff05112fb0-item-ea6527549f",
+                              "lastModified": 1594170071573,
+                              "level": 1,
+                              "link": {
+                                "attributes": {
+                                  "data-link-type": "internal",
+                                  "data-valid": "true"
+                                },
+                                "url": "http://localhost:4502/content/wknd/language-masters/en/about-us.site.api/content.json",
+                                "valid": true
+                              },
+                              "path": "/content/wknd/language-masters/en/about-us",
+                              "title": "About Us"
+                            }],
+                            "current": true,
+                            "dataLayer": {
+                              "navigation-ff05112fb0-item-6c5d4b9fdd": {
+                                "@type": "wknd/components/page/item",
+                                "dc:title": "Home",
+                                "repo:modifyDate": "2023-09-04T15:01:13Z",
+                                "xdm:linkURL": "http://localhost:4502/content/wknd/language-masters/en.site.api/content.json"
+                              }
+                            },
+                            "description": "WKND is a collective of outdoors, music, crafts, adventure sports, and travel enthusiasts that want to share our experiences, connections, and expertise with the world.",
+                            "id": "navigation-ff05112fb0-item-6c5d4b9fdd",
+                            "lastModified": 1601512109020,
+                            "level": 0,
+                            "link": {
+                              "attributes": {
+                                "data-link-type": "internal",
+                                "data-valid": "true"
+                              },
+                              "url": "http://localhost:4502/content/wknd/language-masters/en.site.api/content.json",
+                              "valid": true
+                            },
+                            "path": "/content/wknd/language-masters/en",
+                            "title": "Home"
+                          }]
+                        },
+                        "search": {
+                          ":type": "wknd/components/search",
+                          "appliedCssClassNames": "cmp-search--header",
+                          "dataLayer": {
+                            "search-f5a05c82f1": {
+                              "@type": "wknd/components/search",
+                              "repo:modifyDate": "2019-09-16T00:05:56Z"
+                            }
+                          },
+                          "id": "search-f5a05c82f1",
+                          "relativePath": "/jcr:content/root/container/container_1195249223/search",
+                          "resultsSize": 5,
+                          "searchRootPagePath": "/content/wknd/language-masters/en",
+                          "searchTermMinimumLength": 3
+                        }
+                      },
+                      ":itemsOrder": ["image", "navigation", "search"],
+                      ":type": "wknd/components/container",
+                      "appliedCssClassNames": "cmp-layoutcontainer--header",
+                      "dataLayer": {
+                        "container-be388e7f58": {
+                          "@type": "wknd/components/container",
+                          "repo:modifyDate": "2020-07-08T00:35:30Z"
+                        }
+                      },
+                      "id": "container-be388e7f58",
+                      "layout": "RESPONSIVE_GRID"
+                    }
+                  },
+                  ":itemsOrder": ["container", "container_1195249223"],
+                  ":type": "wknd/components/container",
+                  "dataLayer": {
+                    "container-e4d23bfdbe": {
+                      "@type": "wknd/components/container",
+                      "repo:modifyDate": "2019-09-13T21:23:01Z"
+                    }
+                  },
+                  "id": "container-e4d23bfdbe",
+                  "layout": "SIMPLE"
+                }
+              },
+              ":itemsOrder": ["container"],
+              ":type": "wknd/components/container",
+              "dataLayer": {
+                "container-45ab0e4ba9": {
+                  "@type": "wknd/components/container"
+                }
+              },
+              "id": "container-45ab0e4ba9",
+              "layout": "SIMPLE"
+            }
+          },
+          ":itemsOrder": ["root"],
+          ":type": "wknd/components/experiencefragment",
+          "appliedCssClassNames": "cmp-experiencefragment--header",
+          "classNames": "aem-xf",
+          "configured": true,
+          "dataLayer": {
+            "experiencefragment-50bb5a6e56": {
+              "@type": "wknd/components/experiencefragment",
+              "repo:modifyDate": "2019-09-16T20:47:28Z"
+            }
+          },
+          "id": "experiencefragment-50bb5a6e56",
+          "localizedFragmentVariationPath": "/content/experience-fragments/wknd/language-masters/en/site/header/master/jcr:content"
+        },
+        "footer": {
+          ":items": {
+            "root": {
+              ":items": {
+                "container": {
+                  ":items": {
+                    "container": {
+                      ":items": {
+                        "button": {
+                          ":items": {
+                            "button39381355678930": {
+                              ":type": "wknd/components/button",
+                              "accessibilityLabel": "Facebook WKND Button",
+                              "appliedCssClassNames": "cmp-button--icononly",
+                              "dataLayer": {
+                                "button-ab8126791e": {
+                                  "@type": "wknd/components/button",
+                                  "dc:title": "Facebook",
+                                  "repo:modifyDate": "2019-10-18T16:02:39Z"
+                                }
+                              },
+                              "icon": "facebook",
+                              "id": "button-ab8126791e",
+                              "text": "Facebook"
+                            },
+                            "item39381356464486": {
+                              ":type": "wknd/components/button",
+                              "accessibilityLabel": "Twitter WKND Button",
+                              "appliedCssClassNames": "cmp-button--icononly",
+                              "dataLayer": {
+                                "button-ca8ccb7f12": {
+                                  "@type": "wknd/components/button",
+                                  "dc:title": "Twitter",
+                                  "repo:modifyDate": "2019-10-18T16:03:16Z"
+                                }
+                              },
+                              "icon": "twitter",
+                              "id": "button-ca8ccb7f12",
+                              "text": "Twitter"
+                            },
+                            "item39381358237347": {
+                              ":type": "wknd/components/button",
+                              "accessibilityLabel": "Instagram WKND",
+                              "appliedCssClassNames": "cmp-button--icononly",
+                              "dataLayer": {
+                                "button-06bc532b85": {
+                                  "@type": "wknd/components/button",
+                                  "dc:title": "Instagram",
+                                  "repo:modifyDate": "2019-10-18T16:03:48Z"
+                                }
+                              },
+                              "icon": "instagram",
+                              "id": "button-06bc532b85",
+                              "text": "Instagram"
+                            }
+                          },
+                          ":itemsOrder": ["button39381355678930", "item39381356464486", "item39381358237347"],
+                          ":type": "cq/experience-fragments/editor/components/buildingblock",
+                          "appliedCssClassNames": "cmp-buildingblock--btn-list",
+                          "columnClassNames": {
+                            "button39381355678930": "aem-GridColumn aem-GridColumn--tablet--12 aem-GridColumn--default--2 aem-GridColumn--phone--12",
+                            "item39381356464486": "aem-GridColumn aem-GridColumn--tablet--12 aem-GridColumn--default--2 aem-GridColumn--phone--12",
+                            "item39381358237347": "aem-GridColumn aem-GridColumn--tablet--12 aem-GridColumn--default--2 aem-GridColumn--phone--12"
+                          },
+                          "columnCount": 12,
+                          "gridClassNames": "aem-Grid aem-Grid--2 aem-Grid--tablet--12 aem-Grid--default--2 aem-Grid--phone--12"
+                        },
+                        "image": {
+                          ":type": "wknd/components/image",
+                          "alt": "WKND Logo",
+                          "appliedCssClassNames": "cmp-image--logo",
+                          "dataLayer": {
+                            "image-377462e50f": {
+                              "@type": "wknd/components/image",
+                              "image": {
+                                "@type": "image/svg+xml",
+                                "repo:id": "0d699708-1f50-4aa0-bf83-04d371cd8b73",
+                                "repo:modifyDate": "2020-07-10T20:28:53Z",
+                                "repo:path": "/content/dam/wknd/en/site/wknd-logo-light.svg"
+                              },
+                              "repo:modifyDate": "2020-07-10T20:29:23Z",
+                              "xdm:linkURL": "#"
+                            }
+                          },
+                          "decorative": false,
+                          "dmImage": false,
+                          "id": "image-377462e50f",
+                          "imageLink": {
+                            "attributes": {
+                              "data-link-type": "external",
+                              "data-valid": "true"
+                            },
+                            "url": "#",
+                            "valid": true
+                          },
+                          "lazyEnabled": true,
+                          "lazyThreshold": 0,
+                          "link": "#",
+                          "src": "http://localhost:4502/content/dam/wknd/en/site/wknd-logo-light.svg/_jcr_content/renditions/original./wknd-logo-light.svg",
+                          "wcmio:mediaURL": "http://localhost:4502/content/dam/wknd/en/site/wknd-logo-light.svg/_jcr_content/renditions/original./wknd-logo-light.svg",
+                          "wcmio:mediaValid": true,
+                          "widths": [240]
+                        },
+                        "navigation": {
+                          ":type": "wknd/components/navigation",
+                          "accessibilityLabel": "Footer navigation",
+                          "appliedCssClassNames": "cmp-navigation--footer",
+                          "dataLayer": {
+                            "navigation-e6530ac93f": {
+                              "@type": "wknd/components/navigation",
+                              "repo:modifyDate": "2019-09-19T22:08:37Z"
+                            }
+                          },
+                          "id": "navigation-e6530ac93f",
+                          "items": [{
+                            ":type": "wknd/components/page",
+                            "active": true,
+                            "children": [{
+                              ":type": "wknd/components/page",
+                              "active": false,
+                              "children": [],
+                              "current": false,
+                              "dataLayer": {
+                                "navigation-e6530ac93f-item-9ac1de036a": {
+                                  "@type": "wknd/components/page/item",
+                                  "dc:title": "Magazine",
+                                  "repo:modifyDate": "2023-09-04T15:01:16Z",
+                                  "xdm:linkURL": "http://localhost:4502/content/wknd/language-masters/en/magazine.site.api/content.json"
+                                }
+                              },
+                              "description": "Read articles about adventures and activities that we've recently experienced and would love to share with our community.",
+                              "id": "navigation-e6530ac93f-item-9ac1de036a",
+                              "lastModified": 1601512618293,
+                              "level": 1,
+                              "link": {
+                                "attributes": {
+                                  "data-link-type": "internal",
+                                  "data-valid": "true"
+                                },
+                                "url": "http://localhost:4502/content/wknd/language-masters/en/magazine.site.api/content.json",
+                                "valid": true
+                              },
+                              "path": "/content/wknd/language-masters/en/magazine",
+                              "title": "Magazine"
+                            }, {
+                              ":type": "wknd/components/page",
+                              "active": false,
+                              "children": [],
+                              "current": false,
+                              "dataLayer": {
+                                "navigation-e6530ac93f-item-bd1e5340a8": {
+                                  "@type": "wknd/components/page/item",
+                                  "dc:title": "Adventures",
+                                  "repo:modifyDate": "2023-09-04T15:01:16Z",
+                                  "xdm:linkURL": "http://localhost:4502/content/wknd/language-masters/en/adventures.site.api/content.json"
+                                }
+                              },
+                              "description": "Join us on one of our next adventures.  Browse our list of curated experiences and sign up for one when you're ready to explore with us.",
+                              "id": "navigation-e6530ac93f-item-bd1e5340a8",
+                              "lastModified": 1601512176258,
+                              "level": 1,
+                              "link": {
+                                "attributes": {
+                                  "data-link-type": "internal",
+                                  "data-valid": "true"
+                                },
+                                "url": "http://localhost:4502/content/wknd/language-masters/en/adventures.site.api/content.json",
+                                "valid": true
+                              },
+                              "path": "/content/wknd/language-masters/en/adventures",
+                              "title": "Adventures"
+                            }, {
+                              ":type": "wknd/components/page",
+                              "active": false,
+                              "children": [],
+                              "current": false,
+                              "dataLayer": {
+                                "navigation-e6530ac93f-item-be2d0c160a": {
+                                  "@type": "wknd/components/page/item",
+                                  "dc:title": "FAQs",
+                                  "repo:modifyDate": "2023-09-04T15:01:16Z",
+                                  "xdm:linkURL": "http://localhost:4502/content/wknd/language-masters/en/faqs.site.api/content.json"
+                                }
+                              },
+                              "description": "Here we answer some of the questions that we hear most often from the community.",
+                              "id": "navigation-e6530ac93f-item-be2d0c160a",
+                              "lastModified": 1594169897582,
+                              "level": 1,
+                              "link": {
+                                "attributes": {
+                                  "data-link-type": "internal",
+                                  "data-valid": "true"
+                                },
+                                "url": "http://localhost:4502/content/wknd/language-masters/en/faqs.site.api/content.json",
+                                "valid": true
+                              },
+                              "path": "/content/wknd/language-masters/en/faqs",
+                              "title": "FAQs"
+                            }, {
+                              ":type": "wknd/components/page",
+                              "active": false,
+                              "children": [],
+                              "current": false,
+                              "dataLayer": {
+                                "navigation-e6530ac93f-item-ea6527549f": {
+                                  "@type": "wknd/components/page/item",
+                                  "dc:title": "About Us",
+                                  "repo:modifyDate": "2023-09-04T15:01:16Z",
+                                  "xdm:linkURL": "http://localhost:4502/content/wknd/language-masters/en/about-us.site.api/content.json"
+                                }
+                              },
+                              "description": "WKND is a collective of outdoors, music, crafts, adventure sports, and travel enthusiasts that want to share our experiences, connections, and expertise with the world. ",
+                              "id": "navigation-e6530ac93f-item-ea6527549f",
+                              "lastModified": 1594170071573,
+                              "level": 1,
+                              "link": {
+                                "attributes": {
+                                  "data-link-type": "internal",
+                                  "data-valid": "true"
+                                },
+                                "url": "http://localhost:4502/content/wknd/language-masters/en/about-us.site.api/content.json",
+                                "valid": true
+                              },
+                              "path": "/content/wknd/language-masters/en/about-us",
+                              "title": "About Us"
+                            }],
+                            "current": true,
+                            "dataLayer": {
+                              "navigation-e6530ac93f-item-6c5d4b9fdd": {
+                                "@type": "wknd/components/page/item",
+                                "dc:title": "Home",
+                                "repo:modifyDate": "2023-09-04T15:01:13Z",
+                                "xdm:linkURL": "http://localhost:4502/content/wknd/language-masters/en.site.api/content.json"
+                              }
+                            },
+                            "description": "WKND is a collective of outdoors, music, crafts, adventure sports, and travel enthusiasts that want to share our experiences, connections, and expertise with the world.",
+                            "id": "navigation-e6530ac93f-item-6c5d4b9fdd",
+                            "lastModified": 1601512109020,
+                            "level": 0,
+                            "link": {
+                              "attributes": {
+                                "data-link-type": "internal",
+                                "data-valid": "true"
+                              },
+                              "url": "http://localhost:4502/content/wknd/language-masters/en.site.api/content.json",
+                              "valid": true
+                            },
+                            "path": "/content/wknd/language-masters/en",
+                            "title": "Home"
+                          }]
+                        },
+                        "separator": {
+                          ":type": "wknd/components/separator"
+                        },
+                        "text": {
+                          ":type": "wknd/components/text",
+                          "appliedCssClassNames": "cmp-text--font-xsmall",
+                          "dataLayer": {
+                            "text-ef458381cd": {
+                              "@type": "wknd/components/text",
+                              "repo:modifyDate": "2019-10-02T23:33:25Z",
+                              "xdm:text": "<p>Ⓒ 2019,&nbsp; &nbsp; WKND Site.</p>\r\n<p>WKND is a fictitious adventure and travel website created by Adobe to demonstrate how anyone can use Adobe Experience Manager to build a beautiful, feature-rich website over a single weekend. This site is built entirely with Adobe Experience Manager&nbsp; <a href=\"https://docs.adobe.com/content/help/en/experience-manager-core-components/using/introduction.html\" data-link-type=\"external\" data-valid=\"true\">Core Components</a>&nbsp; and&nbsp; <a href=\"https://github.com/adobe/aem-project-archetype\" data-link-type=\"external\" data-valid=\"true\">Archetype</a>&nbsp; that are available as open source code to the public. The entire&nbsp; <a href=\"https://github.com/wcm-io/aem-guides-wknd-wcmio/\" data-link-type=\"external\" data-valid=\"true\">site source code</a>&nbsp; is available as open source as well and is accompanied with a&nbsp; <a href=\"https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html\" data-link-type=\"external\" data-valid=\"true\">detailed tutorial</a>&nbsp; on how to recreate the site.</p>\r\n<p>Many of the beautiful images in the WKND site are available for purchase via&nbsp; <a href=\"https://stock.adobe.com/\" data-link-type=\"external\" data-valid=\"true\">Adobe Stock</a>.</p>\r\n"
+                            }
+                          },
+                          "id": "text-ef458381cd",
+                          "richText": true,
+                          "text": "<p>Ⓒ 2019,&nbsp; &nbsp; WKND Site.</p>\r\n<p>WKND is a fictitious adventure and travel website created by Adobe to demonstrate how anyone can use Adobe Experience Manager to build a beautiful, feature-rich website over a single weekend. This site is built entirely with Adobe Experience Manager&nbsp; <a href=\"https://docs.adobe.com/content/help/en/experience-manager-core-components/using/introduction.html\" data-link-type=\"external\" data-valid=\"true\">Core Components</a>&nbsp; and&nbsp; <a href=\"https://github.com/adobe/aem-project-archetype\" data-link-type=\"external\" data-valid=\"true\">Archetype</a>&nbsp; that are available as open source code to the public. The entire&nbsp; <a href=\"https://github.com/wcm-io/aem-guides-wknd-wcmio/\" data-link-type=\"external\" data-valid=\"true\">site source code</a>&nbsp; is available as open source as well and is accompanied with a&nbsp; <a href=\"https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html\" data-link-type=\"external\" data-valid=\"true\">detailed tutorial</a>&nbsp; on how to recreate the site.</p>\r\n<p>Many of the beautiful images in the WKND site are available for purchase via&nbsp; <a href=\"https://stock.adobe.com/\" data-link-type=\"external\" data-valid=\"true\">Adobe Stock</a>.</p>\r\n"
+                        },
+                        "title": {
+                          ":type": "wknd/components/title",
+                          "appliedCssClassNames": "cmp-title--right cmp-title--white",
+                          "dataLayer": {
+                            "title-c4a301ef30": {
+                              "@type": "wknd/components/title",
+                              "dc:title": "Follow Us",
+                              "repo:modifyDate": "2019-09-20T00:50:03Z"
+                            }
+                          },
+                          "id": "title-c4a301ef30",
+                          "linkDisabled": false,
+                          "text": "Follow Us",
+                          "type": "h4"
+                        }
+                      },
+                      ":itemsOrder": ["image", "navigation", "title", "button", "separator", "text"],
+                      ":type": "wknd/components/container",
+                      "appliedCssClassNames": "cmp-layout-container--fixed cmp-layoutcontainer--footer",
+                      "dataLayer": {
+                        "container-73a1283330": {
+                          "@type": "wknd/components/container",
+                          "repo:modifyDate": "2020-07-08T00:36:12Z"
+                        }
+                      },
+                      "id": "container-73a1283330",
+                      "layout": "RESPONSIVE_GRID"
+                    }
+                  },
+                  ":itemsOrder": ["container"],
+                  ":type": "wknd/components/container",
+                  "dataLayer": {
+                    "container-e30937fdbf": {
+                      "@type": "wknd/components/container",
+                      "repo:modifyDate": "2019-09-13T21:23:01Z"
+                    }
+                  },
+                  "id": "container-e30937fdbf",
+                  "layout": "SIMPLE"
+                }
+              },
+              ":itemsOrder": ["container"],
+              ":type": "wknd/components/container",
+              "dataLayer": {
+                "container-607c3c82dd": {
+                  "@type": "wknd/components/container"
+                }
+              },
+              "id": "container-607c3c82dd",
+              "layout": "SIMPLE"
+            }
+          },
+          ":itemsOrder": ["root"],
+          ":type": "wknd/components/experiencefragment",
+          "appliedCssClassNames": "cmp-experiencefragment--footer",
+          "classNames": "aem-xf",
+          "configured": true,
+          "dataLayer": {
+            "experiencefragment-846bc16ae0": {
+              "@type": "wknd/components/experiencefragment",
+              "repo:modifyDate": "2019-09-18T21:30:37Z"
+            }
+          },
+          "id": "experiencefragment-846bc16ae0",
+          "localizedFragmentVariationPath": "/content/experience-fragments/wknd/language-masters/en/site/footer/master/jcr:content"
+        }
+      },
+      ":itemsOrder": ["header", "container", "footer"],
+      ":type": "wknd/components/container",
+      "dataLayer": {
+        "container-617d350da5": {
+          "@type": "wknd/components/container"
+        }
+      },
+      "id": "container-617d350da5",
+      "layout": "SIMPLE"
+    }
+  },
+  ":itemsOrder": ["root"],
+  ":type": "wknd/components/page",
+  "brandSlug": "",
+  "cssClassNames": "page basicpage",
+  "dataLayer": {
+    "page-6c5d4b9fdd": {
+      "@type": "wknd/components/page",
+      "dc:description": "WKND is a collective of outdoors, music, crafts, adventure sports, and travel enthusiasts that want to share our experiences, connections, and expertise with the world.",
+      "dc:title": "WKND Adventures and Travel",
+      "repo:modifyDate": "2020-10-01T00:28:29Z",
+      "repo:path": "/content/wknd/language-masters/en.html",
+      "xdm:language": "en",
+      "xdm:tags": ["Attract"],
+      "xdm:template": "/conf/wknd/settings/wcm/templates/landing-page-template"
+    }
+  },
+  "description": "WKND is a collective of outdoors, music, crafts, adventure sports, and travel enthusiasts that want to share our experiences, connections, and expertise with the world.",
+  "designPath": "/libs/settings/wcm/designs/default",
+  "htmlPageItems": [],
+  "id": "page-6c5d4b9fdd",
+  "language": "en",
+  "lastModifiedDate": 1601512109020,
+  "templateName": "landing-page-template",
+  "title": "WKND Adventures and Travel"
+}
