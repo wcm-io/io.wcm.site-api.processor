@@ -180,12 +180,10 @@
           </bnd>
         </configuration>
       </plugin>
-      <!-- Disable baseline check until next release
       <plugin>
         <groupId>biz.aQute.bnd</groupId>
         <artifactId>bnd-baseline-maven-plugin</artifactId>
       </plugin>
-      -->
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-jar-plugin</artifactId>
