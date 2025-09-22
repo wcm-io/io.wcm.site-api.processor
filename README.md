@@ -1,6 +1,6 @@
 <img src="https://wcm.io/images/favicon-16@2x.png"/> Site API Processor
 ======
-[![Build](https://github.com/wcm-io/io.wcm.site-api.processor/workflows/Build/badge.svg?branch=develop)](https://github.com/wcm-io/io.wcm.site-api.processor/actions?query=workflow%3ABuild+branch%3Adevelop)
+[![Build](https://github.com/wcm-io/io.wcm.site-api.processor/actions/workflows/maven-build.yml/badge.svg?branch=develop)](https://github.com/wcm-io/io.wcm.site-api.processor/actions?query=workflow%3ABuild+branch%3Adevelop)
 [![Maven Central](https://img.shields.io/maven-central/v/io.wcm/io.wcm.site-api.processor)](https://repo1.maven.org/maven2/io/wcm/io.wcm.site-api.processor/)
 [![Coverage](https://sonarcloud.io/api/project_badges/measure?project=wcm-io_io.wcm.site-api.processor&metric=coverage)](https://sonarcloud.io/summary/new_code?id=wcm-io_io.wcm.site-api.processor)
 
