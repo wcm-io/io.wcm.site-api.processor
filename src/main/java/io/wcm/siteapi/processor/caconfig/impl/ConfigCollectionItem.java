@@ -53,7 +53,7 @@ class ConfigCollectionItem implements ConfigItem<Collection<SortedMap<String, Ob
   public boolean isValid() {
     // check for invalid configuration items
     return childSingletonItems.stream()
-        .noneMatch(Predicate.not(ConfigSingletonItem::isValid));
+      .noneMatch(Predicate.not(ConfigSingletonItem::isValid));
   }
 
 
@@ -62,10 +62,10 @@ class ConfigCollectionItem implements ConfigItem<Collection<SortedMap<String, Ob
   public @Nullable Collection<SortedMap<String, Object>> toJsonObject() {
     // consider only valid items
     List<SortedMap<String, Object>> validItems = childSingletonItems.stream()
-        .filter(ConfigSingletonItem::isValid)
-        .map(ConfigSingletonItem::toJsonObject)
-        .filter(Objects::nonNull)
-        .collect(Collectors.toList());
+      .filter(ConfigSingletonItem::isValid)
+      .map(ConfigSingletonItem::toJsonObject)
+      .filter(Objects::nonNull)
+      .collect(Collectors.toList());
     if (validItems.isEmpty()) {
       // skip empty collection item
       return null;

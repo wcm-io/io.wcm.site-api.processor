@@ -49,16 +49,17 @@ public final class AppAemContext {
    */
   public static AemContext newAemContext() {
     return new AemContextBuilder()
-        .plugin(CACONFIG)
-        .plugin(WCMIO_SLING)
-        .afterSetUp(SETUP_CALLBACK)
-        .build();
+      .plugin(CACONFIG)
+      .plugin(WCMIO_SLING)
+      .afterSetUp(SETUP_CALLBACK)
+      .build();
   }
 
   /**
    * Custom set up rules required in all unit tests.
    */
   private static final AemContextCallback SETUP_CALLBACK = new AemContextCallback() {
+
     @Override
     public void execute(@NotNull AemContext context) throws PersistenceException, IOException {
 

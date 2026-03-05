@@ -78,18 +78,18 @@ public class ProcessorManagerImpl implements ProcessorManager {
   @Override
   public @Nullable Processor getMatching(@NotNull String suffix, @NotNull Resource contextResource) {
     return serviceCollectionResolver.resolveAllDecorated(contextResource)
-        .filter(ProcessorData::isValid)
-        .filter(processor -> processor.matches(suffix))
-        .map(ProcessorData::getProcessor)
-        .findFirst().orElse(null);
+      .filter(ProcessorData::isValid)
+      .filter(processor -> processor.matches(suffix))
+      .map(ProcessorData::getProcessor)
+      .findFirst().orElse(null);
   }
 
   @Override
   @SuppressWarnings("null")
   public @NotNull Stream<ProcessorMetadata> getAll(@NotNull Resource contextResource) {
     return serviceCollectionResolver.resolveAllDecorated(contextResource)
-        .filter(ProcessorData::isValid)
-        .map(ProcessorMetadata.class::cast);
+      .filter(ProcessorData::isValid)
+      .map(ProcessorMetadata.class::cast);
   }
 
 }

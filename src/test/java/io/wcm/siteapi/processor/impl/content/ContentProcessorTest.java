@@ -60,10 +60,12 @@ class ContentProcessorTest {
     context.currentPage(context.create().page("/content/test"));
 
     context.request().setRequestDispatcherFactory(new MockRequestDispatcherFactory() {
+
       @Override
       public RequestDispatcher getRequestDispatcher(Resource resource, RequestDispatcherOptions options) {
         throw new UnsupportedOperationException();
       }
+
       @Override
       public RequestDispatcher getRequestDispatcher(String path, RequestDispatcherOptions options) {
         requestDispatcherPath = path;

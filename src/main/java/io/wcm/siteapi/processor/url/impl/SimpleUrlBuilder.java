@@ -46,14 +46,14 @@ public class SimpleUrlBuilder implements UrlBuilder {
   public String build(@NotNull Page page, @NotNull String suffix, @Nullable String suffixExtension,
       @NotNull SlingHttpServletRequest request) {
     return new StringBuilder()
-        .append(config.getContextPath())
-        .append(page.getPath())
-        .append(".")
-        .append(config.getSelector())
-        .append(".")
-        .append(config.getExtension())
-        .append(JsonSuffix.build(suffix, suffixExtension))
-        .toString();
+      .append(config.getContextPath())
+      .append(page.getPath())
+      .append(".")
+      .append(config.getSelector())
+      .append(".")
+      .append(config.getExtension())
+      .append(JsonSuffix.build(suffix, suffixExtension))
+      .toString();
   }
 
 }

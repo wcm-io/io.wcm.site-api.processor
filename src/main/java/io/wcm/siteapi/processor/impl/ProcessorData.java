@@ -133,10 +133,10 @@ class ProcessorData implements ProcessorMetadata {
   @Override
   public String toString() {
     return new ToStringBuilder(this, ToStringStyle.SHORT_PREFIX_STYLE)
-        .append("processor", processor)
-        .append("suffix", suffix)
-        .append("suffixPattern", suffixPattern)
-        .toString();
+      .append("processor", processor)
+      .append("suffix", suffix)
+      .append("suffixPattern", suffixPattern)
+      .toString();
   }
 
 }

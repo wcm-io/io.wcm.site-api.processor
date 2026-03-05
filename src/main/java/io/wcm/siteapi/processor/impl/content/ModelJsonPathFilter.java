@@ -77,9 +77,9 @@ class ModelJsonPathFilter {
   private void applyExcludes(ModelItem item) {
     Map<String, ModelItem> items = item.getItems();
     List<String> namesToRemove = items.entrySet().stream()
-        .filter(entry -> excludePaths.contains(entry.getValue().getPath()))
-        .map(Map.Entry::getKey)
-        .collect(Collectors.toList());
+      .filter(entry -> excludePaths.contains(entry.getValue().getPath()))
+      .map(Map.Entry::getKey)
+      .collect(Collectors.toList());
     namesToRemove.forEach(items::remove);
     items.values().forEach(this::applyExcludes);
   }
@@ -98,9 +98,9 @@ class ModelJsonPathFilter {
 
     Map<String, Object> items = new LinkedHashMap<>();
     this.includePaths.stream()
-        .map(path -> findByPath(root, path))
-        .filter(Objects::nonNull)
-        .forEach(item -> items.put(ResourceUtil.getName(item.getPath()), item.toJson()));
+      .map(path -> findByPath(root, path))
+      .filter(Objects::nonNull)
+      .forEach(item -> items.put(ResourceUtil.getName(item.getPath()), item.toJson()));
 
     result.put(PN_ITEMS, items);
     result.put(PN_ITEMSORDER, List.copyOf(items.keySet()));

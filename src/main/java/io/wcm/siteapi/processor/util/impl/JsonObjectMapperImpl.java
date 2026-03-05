@@ -42,17 +42,17 @@ import io.wcm.siteapi.processor.util.JsonObjectMapper;
 public class JsonObjectMapperImpl implements JsonObjectMapper {
 
   private static final ObjectMapper OBJECT_MAPPER = JsonMapper.builder()
-      // ensure consistent ordering of objects and properties
-      .enable(MapperFeature.SORT_PROPERTIES_ALPHABETICALLY)
-      .enable(SerializationFeature.ORDER_MAP_ENTRIES_BY_KEYS)
-      // allow comments in JSON
-      .enable(JsonParser.Feature.ALLOW_COMMENTS)
-      // ignore null properties
-      .serializationInclusion(Include.NON_NULL)
-      .build();
+    // ensure consistent ordering of objects and properties
+    .enable(MapperFeature.SORT_PROPERTIES_ALPHABETICALLY)
+    .enable(SerializationFeature.ORDER_MAP_ENTRIES_BY_KEYS)
+    // allow comments in JSON
+    .enable(JsonParser.Feature.ALLOW_COMMENTS)
+    // ignore null properties
+    .serializationInclusion(Include.NON_NULL)
+    .build();
 
   private static final JavaType MAP_TYPE = OBJECT_MAPPER.getTypeFactory()
-      .constructMapType(Map.class, String.class, Object.class);
+    .constructMapType(Map.class, String.class, Object.class);
 
   @Override
   @SuppressWarnings("null")

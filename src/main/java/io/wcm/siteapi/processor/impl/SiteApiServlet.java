@@ -63,7 +63,9 @@ import io.wcm.siteapi.processor.util.JsonObjectMapper;
  * Accepts all Site API calls and redirects processing to a {@link SlingHttpServletProcessor} based on the suffix.
  */
 @Designate(ocd = SiteApiServlet.Config.class)
-@Component(service = { Servlet.class, SiteApiConfiguration.class })
+@Component(service = {
+    Servlet.class, SiteApiConfiguration.class
+})
 @SlingServletResourceTypes(
     resourceTypes = NameConstants.NT_PAGE,
     methods = HttpConstants.METHOD_GET)

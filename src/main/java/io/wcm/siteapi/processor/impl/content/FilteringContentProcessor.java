@@ -142,7 +142,9 @@ public class FilteringContentProcessor implements JsonObjectProcessor<Map<String
         PrintWriter printWriter = new PrintWriter(writer)) {
       SlingHttpServletResponse responseProxy = (SlingHttpServletResponse)Proxy.newProxyInstance(
           SlingHttpServletResponse.class.getClassLoader(),
-          new Class[] { SlingHttpServletResponse.class },
+          new Class[] {
+              SlingHttpServletResponse.class
+          },
           (proxy, method, methodArgs) -> {
             if (StringUtils.equals(method.getName(), "getWriter")) {
               return printWriter;
