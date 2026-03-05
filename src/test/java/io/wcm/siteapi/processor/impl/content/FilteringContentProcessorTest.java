@@ -81,10 +81,12 @@ class FilteringContentProcessorTest {
     context.currentPage(context.create().page("/content/test"));
 
     context.request().setRequestDispatcherFactory(new MockRequestDispatcherFactory() {
+
       @Override
       public RequestDispatcher getRequestDispatcher(Resource resource, RequestDispatcherOptions options) {
         throw new UnsupportedOperationException();
       }
+
       @Override
       public RequestDispatcher getRequestDispatcher(String path, RequestDispatcherOptions options) {
         requestDispatcherPath = path;
@@ -99,6 +101,7 @@ class FilteringContentProcessorTest {
 
     // simulate model.json from JSON file
     doAnswer(new Answer() {
+
       @Override
       public Object answer(InvocationOnMock invocation) throws Throwable {
         SlingHttpServletResponse response = invocation.getArgument(1);

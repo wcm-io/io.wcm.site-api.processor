@@ -53,8 +53,8 @@ class ModelItem {
 
   private static Map<String, Object> getProperties(Map<String, Object> data) {
     return data.entrySet().stream()
-        .filter(entry -> !StringUtils.equalsAny(entry.getKey(), PN_ITEMS, PN_ITEMSORDER))
-        .collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
+      .filter(entry -> !StringUtils.equalsAny(entry.getKey(), PN_ITEMS, PN_ITEMSORDER))
+      .collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
   }
 
   private static Map<String, ModelItem> getModelItems(Map<String, Object> data, String parentPath) {

@@ -71,9 +71,9 @@ class ConfigSingletonItem implements ConfigItem<SortedMap<String, Object>> {
 
     // ensure all nested configurations are valid
     return this.data.values().stream()
-        .filter(ConfigItem.class::isInstance)
-        .map(ConfigItem.class::cast)
-        .noneMatch(not(ConfigItem::isValid));
+      .filter(ConfigItem.class::isInstance)
+      .map(ConfigItem.class::cast)
+      .noneMatch(not(ConfigItem::isValid));
   }
 
   private boolean isValueMissing(@NotNull String propertyName) {
@@ -92,15 +92,15 @@ class ConfigSingletonItem implements ConfigItem<SortedMap<String, Object>> {
       return null;
     }
     return data.entrySet().stream()
-        .map(entry -> {
-          // transform nested ConfigItems to JSON data structures
-          if (entry.getValue() instanceof ConfigItem) {
-            return Map.entry(entry.getKey(), ((ConfigItem)entry.getValue()).toJsonObject());
-          }
-          return entry;
-        })
-        .filter(entry -> entry.getValue() != null)
-        .collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue, (a, b) -> a, TreeMap::new));
+      .map(entry -> {
+        // transform nested ConfigItems to JSON data structures
+        if (entry.getValue() instanceof ConfigItem) {
+          return Map.entry(entry.getKey(), ((ConfigItem)entry.getValue()).toJsonObject());
+        }
+        return entry;
+      })
+      .filter(entry -> entry.getValue() != null)
+      .collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue, (a, b) -> a, TreeMap::new));
   }
 
 }

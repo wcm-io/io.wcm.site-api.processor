@@ -110,7 +110,7 @@ public class ContextAwareConfigurationMapperImpl implements ContextAwareConfigur
 
     // get property mappers
     Collection<ContextAwareConfigurationPropertyMapper<Object>> mappers = propertyMapperResolver
-        .resolveAll(contextResource).collect(Collectors.toList());
+      .resolveAll(contextResource).collect(Collectors.toList());
 
     // singleton caconfig
     if (metadata.isSingleton()) {
@@ -223,11 +223,11 @@ public class ContextAwareConfigurationMapperImpl implements ContextAwareConfigur
   @SuppressWarnings("null")
   private @NotNull Stream<PropertyInfo> getExportedProperties(@NotNull ConfigurationData configData) {
     return configData.getPropertyNames().stream()
-        .filter(propertyName -> !IGNORED_SYSTEM_PROPERTY_NAMES.matcher(propertyName).matches())
-        .map(configData::getValueInfo)
-        .filter(Objects::nonNull)
-        .map(PropertyInfo::new)
-        .filter(not(PropertyInfo::isHidden));
+      .filter(propertyName -> !IGNORED_SYSTEM_PROPERTY_NAMES.matcher(propertyName).matches())
+      .map(configData::getValueInfo)
+      .filter(Objects::nonNull)
+      .map(PropertyInfo::new)
+      .filter(not(PropertyInfo::isHidden));
   }
 
   /**
@@ -238,8 +238,8 @@ public class ContextAwareConfigurationMapperImpl implements ContextAwareConfigur
       @NotNull SlingHttpServletRequest request,
       @NotNull Collection<ContextAwareConfigurationPropertyMapper<Object>> mappers) {
     return mappers.stream()
-        .filter(mapper -> mapper.accept(value, metadata, request))
-        .findFirst().orElse(null);
+      .filter(mapper -> mapper.accept(value, metadata, request))
+      .findFirst().orElse(null);
   }
 
   /**

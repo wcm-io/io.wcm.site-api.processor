@@ -80,11 +80,11 @@ public class IndexProcessor implements JsonObjectProcessor<Collection<ProcessorI
   @SuppressWarnings("null")
   private Collection<ProcessorIndex> getIndex(@NotNull Page page, @NotNull SlingHttpServletRequest request) {
     return processorManager.getAll(page.getContentResource())
-        .map(ProcessorMetadata::getSuffix)
-        .sorted()
-        .filter(suffix -> !StringUtils.equals(suffix, PROCESSOR_INDEX))
-        .map(suffix -> new ProcessorIndex(suffix, urlBuilder.build(page, suffix, null, request)))
-        .collect(Collectors.toList());
+      .map(ProcessorMetadata::getSuffix)
+      .sorted()
+      .filter(suffix -> !StringUtils.equals(suffix, PROCESSOR_INDEX))
+      .map(suffix -> new ProcessorIndex(suffix, urlBuilder.build(page, suffix, null, request)))
+      .collect(Collectors.toList());
   }
 
 }

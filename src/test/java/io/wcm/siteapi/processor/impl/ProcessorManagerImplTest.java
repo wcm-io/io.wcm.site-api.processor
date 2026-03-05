@@ -193,8 +193,8 @@ class ProcessorManagerImplTest {
 
     ProcessorManager underTest = context.registerInjectActivateService(ProcessorManagerImpl.class);
     ProcessorMetadata metadata = underTest.getAll(resource)
-        .filter(item -> StringUtils.equals(item.getSuffix(), "suffix1"))
-        .findFirst().get();
+      .filter(item -> StringUtils.equals(item.getSuffix(), "suffix1"))
+      .findFirst().get();
 
     assertEquals("suffix1", metadata.getSuffix());
     assertEquals(processor1.getClass(), metadata.getProcessorClass());

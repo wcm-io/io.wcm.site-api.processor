@@ -161,9 +161,9 @@ public class ContextAwareConfigurationProcessor implements JsonObjectProcessor<O
   private @Nullable Object generateSingleConfig(@NotNull ProcessorRequestContext context) {
     String suffixExtension = context.getSuffixExtension();
     return getConfiguredConfigNames(context)
-        .filter(configName -> StringUtils.equals(getExportConfigName(configName), suffixExtension))
-        .map(configName -> contextAwareConfigurationMapper.get(configName, context.getRequest()))
-        .findFirst().orElse(null);
+      .filter(configName -> StringUtils.equals(getExportConfigName(configName), suffixExtension))
+      .map(configName -> contextAwareConfigurationMapper.get(configName, context.getRequest()))
+      .findFirst().orElse(null);
   }
 
   /**
@@ -171,8 +171,8 @@ public class ContextAwareConfigurationProcessor implements JsonObjectProcessor<O
    */
   private Stream<String> getConfiguredConfigNames(@NotNull ProcessorRequestContext context) {
     return caconfigExportCollectionResolver.resolveAll(context.getRequest())
-        .flatMap(item -> item.getNames().stream())
-        .sorted();
+      .flatMap(item -> item.getNames().stream())
+      .sorted();
   }
 
   /**

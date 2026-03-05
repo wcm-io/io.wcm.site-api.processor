@@ -68,13 +68,21 @@ class ContextAwareConfigurationMapperImplTest {
   void testPrimitiveTypes() {
     Map<String, Object> data = Map.of(
         "stringParam", "value1",
-        "stringArrayParam", new String[] { "v1", "v2" },
+        "stringArrayParam", new String[] {
+            "v1", "v2"
+        },
         "intParam", 42,
-        "intArrayParam", new Integer[] { 42, 43, 44 },
+        "intArrayParam", new Integer[] {
+            42, 43, 44
+        },
         "doubleParam", 1.23d,
-        "doubleArrayParam", new Double[] { 1.23d, 2.34d, 3.45d },
+        "doubleArrayParam", new Double[] {
+            1.23d, 2.34d, 3.45d
+        },
         "boolParam", true,
-        "boolArrayParam", new Boolean[] { true, false, true });
+        "boolArrayParam", new Boolean[] {
+            true, false, true
+        });
     MockContextAwareConfig.writeConfiguration(context, ROOT_PATH, ConfigSample.class, data);
 
     assertEquals(data,
@@ -180,7 +188,9 @@ class ContextAwareConfigurationMapperImplTest {
   void testNested() {
     MockContextAwareConfig.writeConfiguration(context, ROOT_PATH, ConfigSampleNested.class,
         "stringParam", "value1");
-    String[] valueArray = new String[] { "v1" };
+    String[] valueArray = new String[] {
+        "v1"
+    };
 
     // writing complex nested configuration is not yet fully supported in a convenient way by MockContextAwareConfig
     // so we have to build the /conf persistence structure ourself
@@ -214,8 +224,12 @@ class ContextAwareConfigurationMapperImplTest {
   @Test
   void testInvalid() {
     MockContextAwareConfig.writeConfiguration(context, ROOT_PATH, ConfigSampleValidation.class,
-        "stringArrayParam", new String[] { "v1", "v2" },
-        "intArrayParam", new Integer[] { 42, 43, 44 });
+        "stringArrayParam", new String[] {
+            "v1", "v2"
+        },
+        "intArrayParam", new Integer[] {
+            42, 43, 44
+        });
 
     assertNull(underTest.get(ConfigSampleValidation.class.getName(), context.request()));
   }
