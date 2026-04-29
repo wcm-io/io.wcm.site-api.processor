@@ -28,7 +28,8 @@ The Site API Processor provides:
 
 |Site API Processor version |AEM version supported
 |---------------------------|----------------------
-|1.2.0 or higher            |AEM 6.5.17+, AEMaaCS
+|1.2.2 or higher            |AEM 6.5.24+, AEM 6.6.2+, AEMaaCS
+|1.2.0                      |AEM 6.5.17+, AEM 6.6.0+, AEMaaCS
 
 
 ### Dependencies
