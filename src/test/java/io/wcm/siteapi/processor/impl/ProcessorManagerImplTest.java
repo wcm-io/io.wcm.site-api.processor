@@ -33,7 +33,7 @@ import static org.osgi.framework.Constants.SERVICE_RANKING;
 import java.util.List;
 import java.util.stream.Collectors;
 
-import org.apache.commons.lang3.StringUtils;
+import org.apache.commons.lang3.Strings;
 import org.apache.sling.api.resource.Resource;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -193,7 +193,7 @@ class ProcessorManagerImplTest {
 
     ProcessorManager underTest = context.registerInjectActivateService(ProcessorManagerImpl.class);
     ProcessorMetadata metadata = underTest.getAll(resource)
-      .filter(item -> StringUtils.equals(item.getSuffix(), "suffix1"))
+      .filter(item -> Strings.CS.equals(item.getSuffix(), "suffix1"))
       .findFirst().get();
 
     assertEquals("suffix1", metadata.getSuffix());

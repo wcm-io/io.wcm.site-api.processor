@@ -25,7 +25,7 @@ import static org.junit.jupiter.api.Assertions.assertNull;
 import java.util.List;
 import java.util.Map;
 
-import org.apache.commons.lang3.StringUtils;
+import org.apache.commons.lang3.Strings;
 import org.apache.sling.testing.mock.caconfig.MockContextAwareConfig;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -194,7 +194,7 @@ class ContextAwareConfigurationMapperImplTest {
 
     // writing complex nested configuration is not yet fully supported in a convenient way by MockContextAwareConfig
     // so we have to build the /conf persistence structure ourself
-    String confRootPath = StringUtils.replace(ROOT_PATH, "/content/", "/conf/") + "/sling:configs/" + ConfigSampleNested.class.getName();
+    String confRootPath = Strings.CS.replace(ROOT_PATH, "/content/", "/conf/") + "/sling:configs/" + ConfigSampleNested.class.getName();
     context.create().resource(confRootPath + "/sub/sub_1", "subStringParam", "sub_1");
     context.create().resource(confRootPath + "/sub/sub_2", "subStringParam", "sub_2", "stringArrayParam", valueArray);
     context.create().resource(confRootPath + "/sub2", "sub2StringParam", "sub2");
@@ -210,7 +210,7 @@ class ContextAwareConfigurationMapperImplTest {
   @Test
   void testIgnoreSystemProperties() {
     // writing configuration directly to repository including some system properties
-    String confRootPath = StringUtils.replace(ROOT_PATH, "/content/", "/conf/") + "/sling:configs/" + ConfigSample.class.getName();
+    String confRootPath = Strings.CS.replace(ROOT_PATH, "/content/", "/conf/") + "/sling:configs/" + ConfigSample.class.getName();
     context.create().resource(confRootPath,
         "stringParam", "value1",
         "sling:resourceType", "/any/path",

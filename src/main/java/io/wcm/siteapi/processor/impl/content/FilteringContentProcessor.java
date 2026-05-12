@@ -33,7 +33,7 @@ import java.util.Map;
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 
-import org.apache.commons.lang3.StringUtils;
+import org.apache.commons.lang3.Strings;
 import org.apache.sling.api.SlingHttpServletRequest;
 import org.apache.sling.api.SlingHttpServletResponse;
 import org.jetbrains.annotations.NotNull;
@@ -146,7 +146,7 @@ public class FilteringContentProcessor implements JsonObjectProcessor<Map<String
               SlingHttpServletResponse.class
           },
           (proxy, method, methodArgs) -> {
-            if (StringUtils.equals(method.getName(), "getWriter")) {
+            if (Strings.CS.equals(method.getName(), "getWriter")) {
               return printWriter;
             }
             return null;

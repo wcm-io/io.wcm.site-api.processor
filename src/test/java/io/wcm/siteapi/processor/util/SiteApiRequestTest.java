@@ -45,7 +45,7 @@ class SiteApiRequestTest {
   private SiteApiConfiguration config;
 
   @BeforeEach
-  void setUp() throws Exception {
+  void setUp() {
     context.registerInjectActivateService(JsonObjectMapperImpl.class);
     context.registerInjectActivateService(ProcessorManagerImpl.class);
     registerSiteApiServlet(context);

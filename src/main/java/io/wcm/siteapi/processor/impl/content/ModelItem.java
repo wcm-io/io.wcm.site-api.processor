@@ -26,7 +26,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
 
-import org.apache.commons.lang3.StringUtils;
+import org.apache.commons.lang3.Strings;
 
 /**
  * Represents an item in a container item list, and its subitem in the defined order.
@@ -53,7 +53,7 @@ class ModelItem {
 
   private static Map<String, Object> getProperties(Map<String, Object> data) {
     return data.entrySet().stream()
-      .filter(entry -> !StringUtils.equalsAny(entry.getKey(), PN_ITEMS, PN_ITEMSORDER))
+      .filter(entry -> !Strings.CS.equalsAny(entry.getKey(), PN_ITEMS, PN_ITEMSORDER))
       .collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
   }
 
@@ -91,7 +91,7 @@ class ModelItem {
 
   private static String buildPath(String parentPath, String name) {
     StringBuilder path = new StringBuilder();
-    if (!StringUtils.equals(parentPath, ROOT_PATH)) {
+    if (!Strings.CS.equals(parentPath, ROOT_PATH)) {
       path.append(parentPath);
     }
     path.append("/").append(name);

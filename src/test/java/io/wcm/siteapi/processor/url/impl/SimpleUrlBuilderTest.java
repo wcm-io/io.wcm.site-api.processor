@@ -44,7 +44,7 @@ class SimpleUrlBuilderTest {
   private Page page;
 
   @BeforeEach
-  protected void setUp() {
+  void setUp() {
     context.registerInjectActivateService(JsonObjectMapperImpl.class);
     context.registerInjectActivateService(ProcessorManagerImpl.class);
     registerSiteApiServlet(context);

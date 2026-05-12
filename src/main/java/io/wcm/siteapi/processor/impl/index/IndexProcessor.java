@@ -25,7 +25,7 @@ import static io.wcm.siteapi.processor.ProcessorConstants.PROPERTY_SUFFIX;
 import java.util.Collection;
 import java.util.stream.Collectors;
 
-import org.apache.commons.lang3.StringUtils;
+import org.apache.commons.lang3.Strings;
 import org.apache.sling.api.SlingHttpServletRequest;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
@@ -82,7 +82,7 @@ public class IndexProcessor implements JsonObjectProcessor<Collection<ProcessorI
     return processorManager.getAll(page.getContentResource())
       .map(ProcessorMetadata::getSuffix)
       .sorted()
-      .filter(suffix -> !StringUtils.equals(suffix, PROCESSOR_INDEX))
+      .filter(suffix -> !Strings.CS.equals(suffix, PROCESSOR_INDEX))
       .map(suffix -> new ProcessorIndex(suffix, urlBuilder.build(page, suffix, null, request)))
       .collect(Collectors.toList());
   }

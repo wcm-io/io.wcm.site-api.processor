@@ -61,7 +61,7 @@ class JsonObjectMapperImplTest {
   }
 
   @Test
-  void testToMap_Pojo() throws Exception {
+  void testToMap_Pojo() {
     Map<String, Object> map = underTest.toMap(POJO);
     assertEquals(POJO_MAP, map);
   }

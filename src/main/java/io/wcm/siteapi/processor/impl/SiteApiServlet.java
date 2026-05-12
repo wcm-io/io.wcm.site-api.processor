@@ -26,7 +26,7 @@ import java.io.IOException;
 import javax.servlet.Servlet;
 import javax.servlet.ServletException;
 
-import org.apache.commons.lang3.StringUtils;
+import org.apache.commons.lang3.Strings;
 import org.apache.sling.api.SlingHttpServletRequest;
 import org.apache.sling.api.SlingHttpServletResponse;
 import org.apache.sling.api.resource.Resource;
@@ -121,7 +121,7 @@ public class SiteApiServlet extends SlingSafeMethodsServlet implements SiteApiCo
     WCMMode.DISABLED.toRequest(request);
 
     // ensure selector matches exactly (no additional selectors allowed)
-    if (!StringUtils.equals(request.getRequestPathInfo().getSelectorString(), this.selector)) {
+    if (!Strings.CS.equals(request.getRequestPathInfo().getSelectorString(), this.selector)) {
       response.sendError(SC_NOT_FOUND);
       return;
     }

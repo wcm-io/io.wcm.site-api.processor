@@ -22,7 +22,7 @@ package io.wcm.siteapi.processor.util;
 import static com.adobe.cq.export.json.ExporterConstants.SLING_MODEL_EXTENSION;
 import static com.adobe.cq.export.json.ExporterConstants.SLING_MODEL_SELECTOR;
 
-import org.apache.commons.lang3.StringUtils;
+import org.apache.commons.lang3.Strings;
 import org.apache.sling.api.SlingHttpServletRequest;
 import org.apache.sling.api.request.RequestPathInfo;
 import org.jetbrains.annotations.NotNull;
@@ -62,13 +62,13 @@ public final class SiteApiRequest {
 
   private static boolean isSiteApiRequest(@Nullable String selector, @Nullable String extension,
       @NotNull SiteApiConfiguration siteApiConfiguration) {
-    return StringUtils.equals(selector, siteApiConfiguration.getSelector())
-        && StringUtils.equals(extension, siteApiConfiguration.getExtension());
+    return Strings.CS.equals(selector, siteApiConfiguration.getSelector())
+        && Strings.CS.equals(extension, siteApiConfiguration.getExtension());
   }
 
   private static boolean isModelJsonRequest(@Nullable String selector, @Nullable String extension) {
-    return StringUtils.equals(selector, SLING_MODEL_SELECTOR)
-        && StringUtils.equals(extension, SLING_MODEL_EXTENSION);
+    return Strings.CS.equals(selector, SLING_MODEL_SELECTOR)
+        && Strings.CS.equals(extension, SLING_MODEL_EXTENSION);
   }
 
 }

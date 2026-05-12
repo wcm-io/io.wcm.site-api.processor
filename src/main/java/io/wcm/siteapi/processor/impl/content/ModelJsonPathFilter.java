@@ -33,7 +33,7 @@ import java.util.Objects;
 import java.util.Set;
 import java.util.stream.Collectors;
 
-import org.apache.commons.lang3.StringUtils;
+import org.apache.commons.lang3.Strings;
 import org.apache.sling.api.resource.ResourceUtil;
 
 /**
@@ -109,7 +109,7 @@ class ModelJsonPathFilter {
 
   private ModelItem findByPath(ModelItem item, String path) {
     for (ModelItem child : item.getItems().values()) {
-      if (StringUtils.equals(child.getPath(), path)) {
+      if (Strings.CS.equals(child.getPath(), path)) {
         return child;
       }
       ModelItem descendant = findByPath(child, path);

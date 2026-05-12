@@ -69,7 +69,7 @@ class SiteApiServletTest {
   private JsonObjectProcessor processor2;
 
   @BeforeEach
-  void setUp() throws Exception {
+  void setUp() {
     context.registerService(Processor.class, processor1,
         PROPERTY_SUFFIX, "suffix1");
     context.registerService(Processor.class, processor2,

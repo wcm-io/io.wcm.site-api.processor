@@ -60,7 +60,7 @@ class IndexProcessorTest {
   }
 
   @Test
-  void testEmpty() throws Exception {
+  void testEmpty() {
     ProcessorRequestContext processorRequestContext = processorRequestContext(context.request(), PROCESSOR_INDEX);
 
     Collection<ProcessorIndex> result = underTest.process(processorRequestContext);
@@ -69,7 +69,7 @@ class IndexProcessorTest {
   }
 
   @Test
-  void testWithProcessor() throws Exception {
+  void testWithProcessor() {
     context.registerInjectActivateService(ContentProcessor.class);
     ProcessorRequestContext processorRequestContext = processorRequestContext(context.request(), PROCESSOR_INDEX);
 

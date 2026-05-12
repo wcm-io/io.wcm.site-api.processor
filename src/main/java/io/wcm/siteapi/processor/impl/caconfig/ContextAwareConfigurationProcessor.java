@@ -33,6 +33,7 @@ import java.util.concurrent.ConcurrentSkipListSet;
 import java.util.stream.Stream;
 
 import org.apache.commons.lang3.StringUtils;
+import org.apache.commons.lang3.Strings;
 import org.apache.sling.caconfig.management.ConfigurationManager;
 import org.apache.sling.caconfig.spi.metadata.ConfigurationMetadata;
 import org.jetbrains.annotations.NotNull;
@@ -161,7 +162,7 @@ public class ContextAwareConfigurationProcessor implements JsonObjectProcessor<O
   private @Nullable Object generateSingleConfig(@NotNull ProcessorRequestContext context) {
     String suffixExtension = context.getSuffixExtension();
     return getConfiguredConfigNames(context)
-      .filter(configName -> StringUtils.equals(getExportConfigName(configName), suffixExtension))
+      .filter(configName -> Strings.CS.equals(getExportConfigName(configName), suffixExtension))
       .map(configName -> contextAwareConfigurationMapper.get(configName, context.getRequest()))
       .findFirst().orElse(null);
   }
@@ -206,7 +207,7 @@ public class ContextAwareConfigurationProcessor implements JsonObjectProcessor<O
    * @return Shortened config name
    */
   static @NotNull String toConfigNameWithoutPrefix(@NotNull String configName) {
-    if (StringUtils.contains(configName, ".")) {
+    if (Strings.CS.contains(configName, ".")) {
       return StringUtils.substringAfterLast(configName, ".");
     }
     else {
